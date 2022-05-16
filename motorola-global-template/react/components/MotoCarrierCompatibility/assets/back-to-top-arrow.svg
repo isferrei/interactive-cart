@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="back-to-top-arrow" transform="translate(-3820 -4858)">
+    <path id="Subtraction_1" data-name="Subtraction 1" class="cls-1" d="M24,48A24,24,0,0,1,7.029,7.029,24,24,0,0,1,40.97,40.97,23.842,23.842,0,0,1,24,48ZM24,2A22,22,0,1,0,46,24,22.025,22.025,0,0,0,24,2Z" transform="translate(3820 4858)"/>
+    <g id="Group_76" data-name="Group 76" transform="translate(3165 2609)">
+      <path id="Icon_ionic-ios-arrow-back" data-name="Icon ionic-ios-arrow-back" class="cls-1" d="M5.365,7,.282,1.705a1.026,1.026,0,0,1,0-1.413.937.937,0,0,1,1.36,0l5.759,6a1.029,1.029,0,0,1,.028,1.38L1.646,13.708a.938.938,0,0,1-1.36,0,1.026,1.026,0,0,1,0-1.413Z" transform="translate(672 2272.68) rotate(-90)"/>
+      <path id="Icon_ionic-ios-arrow-back-2" data-name="Icon ionic-ios-arrow-back" class="cls-1" d="M5.365,7,.282,1.705a1.026,1.026,0,0,1,0-1.413.937.937,0,0,1,1.36,0l5.759,6a1.029,1.029,0,0,1,.028,1.38L1.646,13.708a.938.938,0,0,1-1.36,0,1.026,1.026,0,0,1,0-1.413Z" transform="translate(672 2281) rotate(-90)"/>
+    </g>
+  </g>
+</svg>

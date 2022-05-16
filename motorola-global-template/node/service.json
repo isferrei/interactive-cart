@@ -1,0 +1,21 @@
+{
+    "memory": 256,
+    "ttl": 60,
+    "timeout": 10,
+    "minReplicas": 2,
+    "maxReplicas": 4,
+    "routes": {
+      "motosubscriber": {
+        "path": "/motosubscriber",
+        "public": true
+      },
+      "validateCaptcha": {
+        "path": "/_v/captcha",
+        "public": true
+      },
+      "itemPrices": {
+        "path": "/getItemPrices",
+        "public": true
+      }
+    }
+}

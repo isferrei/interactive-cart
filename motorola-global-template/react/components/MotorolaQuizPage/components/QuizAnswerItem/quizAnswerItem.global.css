@@ -1,0 +1,60 @@
+.qq-answer-choice {
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  font-family: "Gotham A", "Gotham B", "ruble";
+}
+.qq-input-hidden {
+  position: absolute;
+  left: -9999px;
+}
+.qq-answer-choice img {
+  width: 148px;
+  border-radius: 8px 8px 0px 0px;
+  cursor:pointer;
+}
+.qq-answer-choice-container input[type="radio"]:checked + .qq-answer-choice {
+  border: 2px solid #92c1e9;
+}
+.qq-answer-choice .qq-answer-label {
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 12px;
+  font-weight: 300;
+  cursor:pointer;
+}
+.quiz-question
+  .qq-answer-choice-container
+  input[type="radio"]:checked
+  + .qq-answer-choice
+  .qq-answer-label {
+  color: #92c1e9;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 360px) {
+  .qq-answer-choice img {
+    width: 162px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .qq-answer-choice img {
+    width: 238px;
+  }
+  .qq-answer-choice .qq-answer-label {
+    font-size: 18px;
+    padding: 16px;
+    line-height: 27px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .qq-answer-choice-container:hover {
+    -moz-box-shadow: inset 0px 314px 0px 0px rgb(255 255 255 / 20%);
+    -webkit-box-shadow: inset 0px 314px 0px 0px rgb(255 255 255 / 20%);
+    box-shadow: inset 0px 314px 0px 0px rgb(255 255 255 / 20%);
+  }
+  .qq-answer-choice-container:hover > .qq-answer-choice img {
+    opacity: 0.5;
+  }
+}

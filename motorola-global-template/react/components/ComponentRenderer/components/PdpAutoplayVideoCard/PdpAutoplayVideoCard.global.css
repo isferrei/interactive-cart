@@ -1,0 +1,117 @@
+.pdp-autoplay-video-card {
+    position: relative;
+    margin: auto;
+    inset: 0px auto auto 0px;
+    box-sizing: border-box;
+    width: 100%;
+    top: 0;
+    background-color: #001428;
+}
+
+.pavc__video-player iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.pavc__details-container {
+    position: absolute;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.pavc__heading, 
+.pavc__subheading {
+    text-align: center;
+    color: #fff;
+    font-family: "Gotham A","Gotham B",'ruble';
+    letter-spacing: 0;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.pavc__heading {
+    font-size: 24px;
+    margin-top: 48px
+}
+
+.pavc__subheading {
+    font-size: 16px;
+    margin: 0;
+}
+
+.pdp-autoplay-video-card .pavc__player-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    padding-top: 0 !important;
+}
+
+.react-player {
+    padding-top: 49.25%;
+    position: relative;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .pavc__details-container {
+        width: 80%;
+        left: 30px;
+        right: 30px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .react-player {
+        padding-top: 134%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pavc__details-container {
+        width: 65%;
+        left: 0;
+        right: 0;
+    }
+
+    .pavc__heading {
+        margin-top: 36px;
+        margin-bottom: 16px;
+    }
+
+    .react-player {
+        padding-top: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .pavc__details-container {
+        width: 50%;
+        left: 0;
+        right: 0;
+    }
+
+    .pavc__heading {
+        margin-top: 36px;
+        margin-bottom: 24px;
+    }
+
+    .react-player {
+        padding-top: 49.25%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .pavc__details-container {
+        width: 48%;
+        left: 0;
+        right: 0;
+    }
+
+    .pavc__heading {
+        margin-top: 48px
+    }
+}

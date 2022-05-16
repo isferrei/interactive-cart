@@ -1,0 +1,17 @@
+.lenovo-logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1100;
+}
+.lenovo-logo a img {
+  width: 22px;
+}
+@media (min-width: 1120px) {
+  .lenovo-logo {
+    top: 30px;
+  }
+  .lenovo-logo a img {
+    width: 27px;
+  }
+}

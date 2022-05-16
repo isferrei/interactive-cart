@@ -1,0 +1,28 @@
+.collection-shelf h1 {
+  text-transform: lowercase;
+  width: 100%;
+}
+.collection-cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.collection-shelf .shelf-title {
+  padding: 50px 0;
+  text-align: center;
+  width: 100%;
+}
+.collection-shelf .shelf-title h1 {
+  font-size: 45px;
+  margin: 0;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+body.bg-base{
+  background-color: #001428 !important;
+}
+
+.bg-base {
+  background-color: #001428 !important;
+}

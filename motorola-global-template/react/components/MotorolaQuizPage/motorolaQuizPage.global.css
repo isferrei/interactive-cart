@@ -1,0 +1,113 @@
+.motorola-quiz-page {
+  font-family: "Gotham A", "Gotham B", "ruble";
+  text-align: center;
+}
+.motorola-quiz-page .mqp-header-container .mqp-header-image {
+  width: 100%;
+  margin: 0 auto;
+}
+.motorola-quiz-page .mqp-header-container .mqp-header-logo {
+  margin-top: 32px;
+}
+.motorola-quiz-page .mqp-header-container .mqp-header-logo img {
+  height: 32px;
+  width: auto;
+}
+.motorola-quiz-page .mqp-header-container .mqp-title {
+  color: #ffffff;
+  padding: 32px 10px 0 10px;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: uppercase;
+}
+.motorola-quiz-page .mqp-header-container .mqp-sub-title {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 32px 10px 16px 10px;
+}
+.motorola-quiz-page .mqp-questions-container .mqp-cta {
+  padding: 64px 0;
+}
+.motorola-quiz-page .mqp-questions-container .mqp-cta input[type="submit"] {
+  width: 320px;
+  height: 64px;
+  border: 1px solid #ffffff;
+  border-radius: 32px;
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0 auto;
+  background-color: transparent;
+  cursor: pointer;
+}
+.motorola-quiz-page
+  .mqp-questions-container
+  .mqp-cta
+  input[type="submit"]:disabled {
+  opacity: 0.25;
+}
+.motorola-quiz-page .mqp-questions-container .mqp-error-message {
+  color: #cf4039;
+  font-size: 16px;
+  line-height: 20px;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: -33px;
+}
+.motorola-quiz-page .mqp-share-wrapper .mqp-share-title {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.motorola-quiz-page .mqp-share-wrapper .mqp-share-icons-container {
+  padding: 24px 0 0;
+}
+.motorola-quiz-page .mqp-share-wrapper .mqp-share-social-icons {
+  display: inline-block;
+  margin: 0 24px;
+  cursor: pointer;
+}
+.motorola-quiz-page .mqp-share-wrapper .mqp-share-social-icons img {
+  height: 24px;
+  width: auto;
+}
+@media screen and (min-width: 375px) {
+  .motorola-quiz-page .mqp-header-container .mqp-header-image {
+    width: 375px;
+  }
+  .motorola-quiz-page .mqp-questions-container .mqp-cta input[type="submit"] {
+    width: 343px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .motorola-quiz-page .mqp-header-container .mqp-header-image {
+    width: 500px;
+  }
+  .motorola-quiz-page .mqp-header-container .mqp-header-logo img {
+    height: 40px;
+  }
+  .motorola-quiz-page .mqp-header-container .mqp-title {
+    font-size: 48px;
+    line-height: 72px;
+  }
+  .motorola-quiz-page .mqp-header-container .mqp-sub-title {
+    font-size: 21px;
+    line-height: 32px;
+    padding: 37px 10px 32px 10px;
+  }
+  .motorola-quiz-page .mqp-questions-container .mqp-cta {
+    padding: 48px 0 84px 0;
+  }
+  .motorola-quiz-page .mqp-questions-container .mqp-cta input[type="submit"] {
+    width: 370px;
+    height: 84px;
+    border: 2px solid #ffffff;
+    border-radius: 45px;
+    font-size: 24px;
+  }
+  .motorola-quiz-page .mqp-share-wrapper .mqp-share-title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

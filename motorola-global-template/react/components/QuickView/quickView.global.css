@@ -1,0 +1,225 @@
+.quick-view .row {
+  text-align: center;
+  position: relative;
+}
+.quick-view {
+  background-color: #111e31;
+}
+.qv-content-section {
+  position: relative;
+}
+.qv-left-section {
+  font-weight: lighter;
+  color: #ffffff;
+  opacity: 1;
+}
+.qv-content {
+  margin: 0 auto;
+  font-weight: lighter;
+}
+.qv-animation-item-0 .qv-items-contents {
+  margin-bottom: 52px;
+}
+.qv-items-headline {
+  color: #ffffff;
+  font-weight: lighter;
+}
+.qv-items-body {
+  font-weight: lighter;
+  color: #ffffff;
+  width: 226px;
+  margin: 0 auto;
+}
+.qv-animation-items img {
+  border: 1px solid #395885;
+  border-radius: 51px;
+}
+.qv-item-video iframe {
+  border: 1px solid #395885;
+  padding: 25px;
+  border-radius: 51px;
+}
+.qv-no-margin {
+  margin: 0;
+}
+.qv-headline {
+  font-weight: lighter;
+}
+@media screen and (min-width: 320px) {
+  .no-padding {
+    padding: 0;
+  }
+  .quick-view {
+    padding-top: 0px;
+  }
+  .qv-left-section {
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+  }
+  .qv-animation-items img {
+    padding: 15px;
+  }
+  .qv-content-section {
+    background-color: #111e31;
+    position: sticky;
+    top: 100px;
+    padding-top: 30px;
+  }
+  .qv-content-section,
+  .qv-content-right-section {
+    margin: 0 auto;
+  }
+  .qv-headline {
+    font-size: 18px;
+    line-height: 19px;
+    padding-bottom: 15px;
+  }
+  .qv-content {
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 6px;
+  }
+  .qv-animation-items {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #111e31;
+    width: auto;
+  }
+  .qv-items-contents {
+    background-color: #111e31;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .qv-items-headline {
+    margin-bottom: 16px;
+    font-size: 18px;
+    line-height: 19px;
+  }
+  .qv-item-video iframe {
+    height: 227px !important;
+    width: 205px !important;
+  }
+  .qv-items-body {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .qv-animation-items {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    opacity: 0.3;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+  }
+  .qv-animation-items.visible {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+  .quick-view {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .qv-left-section {
+    position: sticky;
+    top: 50%;
+    left: 50%;
+    width: 242px;
+    text-align: left;
+  }
+  .qv-headline {
+    font-size: 24px;
+    line-height: 29px;
+    height: 56px;
+  }
+  .qv-animation-items img {
+    padding: 25px;
+  }
+  .qv-content {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .qv-items-headline {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .qv-items-contents {
+    margin-top: 22px;
+    margin-bottom: 21px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  #qv-animation-item-0 {
+    float: none;
+    margin-bottom: 21px;
+  }
+  #qv-animation-item-1 {
+    float: none;
+    margin: 21px 0;
+  }
+  #qv-animation-item-2 {
+    float: none;
+  }
+  .qv-content-animation-sections {
+    margin: 0 auto;
+    width: auto;
+  }
+  .qv-item-video iframe {
+    width: 294px !important;
+    height: 326px !important;
+  }
+  .qv-items-body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .qv-left-section {
+    width: 389px;
+  }
+  .qv-headline {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .qv-content {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .qv-items-headline {
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .qv-animation-items {
+    width: 394px;
+  }
+  #qv-animation-item-0 {
+    float: left;
+    margin-bottom: 85px;
+  }
+  #qv-animation-item-1 {
+    float: right;
+    margin-top: 330px;
+  }
+  #qv-animation-item-2 {
+    float: left;
+  }
+  .qv-content-animation-sections {
+    margin: 0 auto;
+    width: 788px;
+  }
+  .qv-item-video iframe {
+    height: 320px !important;
+    width: 290px !important;
+  }
+}

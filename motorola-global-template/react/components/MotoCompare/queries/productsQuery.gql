@@ -1,0 +1,66 @@
+query Products(
+  $category: String
+  $collection: String
+  $from: Int
+  $to: Int
+) {
+  products(
+    category: $category
+    collection: $collection
+    from: $from
+    to: $to
+  ) @context(provider: "vtex.store-graphql") {
+    cacheId
+    productId
+    productName
+    description
+    categories
+    specificationGroups {
+      name
+      specifications {
+        name
+        values
+      }
+    }
+    categoryTree {
+      name
+      href
+    }
+    link
+    linkText
+    brand
+    items {
+      name
+      itemId
+      nameComplete
+      referenceId {
+        Value
+      }
+      images {
+        imageUrl
+        imageTag
+      }
+      sellers {
+        sellerId
+        commertialOffer {
+          Installments {
+            Value
+            InterestRate
+            TotalValuePlusInterestRate
+            NumberOfInstallments
+            Name
+          }
+          AvailableQuantity
+          Price
+          ListPrice
+          PriceWithoutDiscount
+          RewardValue
+        }
+      }
+    }
+    productClusters {
+      id
+      name
+    }
+  }
+}

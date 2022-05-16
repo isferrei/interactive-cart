@@ -1,0 +1,101 @@
+{
+  "vendor": "motorolaglobalsandbox",
+  "name": "motorola-store-theme",
+  "version": "3.14.0",
+  "builders": {
+    "messages": "1.x",
+    "react": "3.x",
+    "node": "4.x",
+    "styles": "2.x",
+    "store": "0.x",
+    "pixel": "0.x"
+  },
+  "mustUpdateAt": "2020-05-16",
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "policies": [
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "www.google.com",
+        "path": "/recaptcha/api/siteverify"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "mct3wtx8rtr3zf5swqr60mkz0sw0.rest.marketingcloudapis.com",
+        "path": "/data/v1/async/dataextensions/*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "mct3wtx8rtr3zf5swqr60mkz0sw0.auth.marketingcloudapis.com",
+        "path": "/v2/token"
+      }
+    }
+  ],
+  "peerDependencies": {
+    "vtex.bazaarvoice": "2.x",
+    "vtexventures.livestreaming-free": "0.x"
+  },
+  "dependencies": {
+    "vtex.store": "2.x",
+    "vtex.store-header": "2.x",
+    "vtex.store-footer": "2.x",
+    "vtex.native-types": "0.x",
+    "vtex.store-components": "3.x",
+    "vtex.store-resources": "0.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.carousel": "2.x",
+    "vtex.shelf": "1.x",
+    "vtex.menu": "2.x",
+    "vtex.product-details": "1.x",
+    "vtex.affirm-components": "0.x",
+    "vtex.product-context": "0.x",
+    "vtex.product-kit": "1.x",
+    "vtex.search-result": "3.x",
+    "vtex.sandbox": "0.x",
+    "vtex.login": "2.x",
+    "vtex.my-account": "1.x",
+    "vtex.flex-layout": "0.x",
+    "vtex.admin": "2.x",
+    "vtex.admin-pages": "4.x",
+    "vtex.styleguide": "9.x",
+    "vtex.product-summary": "2.x",
+    "vtex.order-placed": "2.x",
+    "vtex.telemarketing": "2.x",
+    "vtex.minicart": "2.x",
+    "vtex.store-icons": "0.x",
+    "vtex.messages": "1.x",
+    "vtex.slider": "0.x",
+    "vtex.device-detector": "0.x",
+    "vtex.responsive-values": "0.x",
+    "vtex.css-handles": "1.x",
+    "vtex.format-currency": "0.x",
+    "vtex.locale-switcher": "0.x",
+    "vtex.search": "2.x",
+    "vtex.product-price": "1.x",
+    "vtex.slider-layout": "0.x",
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.product-list": "0.x",
+    "vtex.checkout-summary": "0.x",
+    "vtex.rich-text": "0.x",
+    "vtex.store-link": "0.x",
+    "vtex.pixel-interfaces": "1.x",
+    "vtex.pixel-manager": "1.x",
+    "vtex.order-manager": "0.x",
+    "vtex.order-items": "0.x",
+    "vtex.checkout-resources": "0.x",
+    "motorolaglobalsandbox.motorola-unsubscribe-link": "0.x"
+  },
+  "title": "Motorola",
+  "description": "Motorola Store Theme",
+  "registries": [
+    "smartcheckout"
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema",
+  "supportWorkspaces": true
+}

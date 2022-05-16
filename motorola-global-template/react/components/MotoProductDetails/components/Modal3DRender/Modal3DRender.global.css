@@ -1,0 +1,211 @@
+@keyframes modal-3d-render {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes modal-3d-render-inner {
+    from {
+      transform: translate(0, 100px);
+    }
+
+    to {
+      transform: translate(0, 0);
+    }
+  }
+
+  .modal-3d-wrapper .modal-3d-render {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 15000;
+    cursor: pointer;
+    opacity: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 0.3s;
+    animation-name: modal-3d-render;
+    -webkit-transition: opacity 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out;
+    -ms-transition: opacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+  }
+
+  .modal-3d-wrapper .modal-3d-render-effect-exit {
+    opacity: 0;
+  }
+
+  .modal-3d-wrapper .modal-3d-render-effect-exit .modal-3d-render-movie-wrap {
+    -webkit-transform: translate(0, 100px);
+    -moz-transform: translate(0, 100px);
+    -ms-transform: translate(0, 100px);
+    -o-transform: translate(0, 100px);
+    transform: translate(0, 100px);
+  }
+
+  .modal-3d-wrapper .modal-3d-render-body {
+    max-width: 1002px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: table;
+  }
+
+  .modal-3d-wrapper .modal-3d-render-inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+  }
+
+  .modal-3d-wrapper .modal-3d-render-movie-wrap {
+    width: 100%;
+    position: relative;
+    padding-bottom: 38% !important;
+    animation-timing-function: ease-out;
+    animation-duration: 0.3s;
+    animation-name: modal-3d-render-inner;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -moz-transition: -moz-transform 0.3s ease-out;
+    -ms-transition: -ms-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+  }
+
+  .modal-3d-wrapper .modal-3d-render-movie-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .modal-3d-wrapper .modal-3d-render-close-btn {
+    position: absolute;
+    z-index: 2;
+    top: -35px;
+    right: -35px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .modal-3d-wrapper .modal-3d-render-close-btn:before,
+  .modal-3d-wrapper .modal-3d-render-close-btn:after {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    margin-top: -1px;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: -6px;
+  }
+
+  .modal-3d-wrapper .modal-3d-render-movie-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  body.no-scroll {
+    overflow: hidden;
+  }
+
+  @media only screen and (max-device-width: 767px) {
+    .modal-3d-wrapper .modal-3d-render-close-btn {
+      background-size: 25px 25px;
+      width: 25px;
+      height: 25px;
+      right: -5px;
+      top: -28px;
+    }
+    .modal-3d-wrapper .modal-3d-render-body {
+      width: 95%;
+    }
+  }
+
+  @media screen and (orientation: landscape) and (max-device-width: 767px) {
+    .modal-3d-wrapper .modal-3d-render-body {
+      width: 70%;
+    }
+    .modal-3d-wrapper .modal-3d-render-movie-wrap {
+      height: 0;
+      padding-bottom: 67% !important;
+    }
+  }
+
+  @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+    .modal-3d-wrapper .modal-3d-render-body {
+      width: 90%;
+    }
+  }
+
+  @media screen and (orientation: landscape) and (min-device-width: 768px) and (max-device-width: 1023px) {
+    .modal-3d-wrapper .modal-3d-render-body {
+      width: 68%;
+    }
+    .modal-3d-wrapper .modal-3d-render-movie-wrap {
+      height: 0;
+      padding-bottom: 54% !important;
+    }
+  }
+
+  @media only screen and (min-device-width: 1024px) {
+    .modal-3d-wrapper .modal-3d-render-movie-wrap {
+      padding-bottom: 25% !important;
+    }
+  }
+
+  @media screen and (min-device-width: 1024px) and (max-device-width: 1024px) {
+    .modal-3d-wrapper .modal-3d-render-body {
+      width: 93%;
+    }
+  }
+
+  @media only screen and (orientation: portrait) and (max-device-width: 767px){
+    .modal-3d-wrapper .modal-3d-render-movie-wrap {
+      padding-bottom: 20% !important;
+    }
+  }
+
+  @media screen and (orientation: portrait) and (min-device-width: 320px) and (max-device-width: 325px) {
+    .modal-3d-wrapper .modal-3d-render-movie-wrap {
+      padding-bottom: 1% !important;
+    }
+  }
+
+  @media screen and (orientation: landscape) and (min-device-width: 320px) and (max-device-width: 568px) {
+    .modal-3d-wrapper .modal-3d-render-movie-wrap {
+      padding-bottom: 65% !important;
+    }
+  }
+
+  @media screen and (orientation: landscape) and (min-device-width: 1024px) and (max-device-width: 1024px) {
+    .modal-3d-wrapper .modal-3d-render-movie-wrap {
+      padding-bottom: 19% !important;
+    }
+  }
+
+  [data-seek-icon]:after {
+    display: none!important;
+  }

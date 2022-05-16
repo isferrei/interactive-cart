@@ -1,0 +1,12 @@
+.inner-container {
+  padding: 10px;
+}
+.marketing-pages {
+  width: 72rem;
+  margin: 0 auto;
+  margin-top: 42px;
+  border: 1px solid black;
+}
+.item {
+  padding-top: 11px;
+}

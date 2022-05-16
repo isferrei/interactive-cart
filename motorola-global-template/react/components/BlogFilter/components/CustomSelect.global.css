@@ -1,0 +1,57 @@
+.custom-select-container {
+  display: inline-block;
+  min-width: 250px;
+  position: relative;
+}
+
+.custom-select-container .selected-text {
+  background-color: #001428;
+  padding: 15px;
+  border: 1px solid #808a94;
+  color:#ffffff;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.custom-select-container .selected-text::after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 22px;
+  border: 7px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+.custom-select-container .selected-text.active::after {
+  top: 15px;
+  border-color: transparent transparent #fff transparent;
+}
+
+.custom-select-container ul {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-select-container .select-options {
+  position: absolute;
+  width: 100%;
+}
+
+.custom-select-container li {
+  list-style-type: none;
+  padding: 15px;
+  background: #000000;
+  border-bottom: 1px solid #808a94;
+  cursor: pointer;
+  color:#ffffff;
+}
+
+.custom-select-container li:hover {
+  background-color: #000000;
+  color: #ffffff;
+  opacity: 0.75;
+}

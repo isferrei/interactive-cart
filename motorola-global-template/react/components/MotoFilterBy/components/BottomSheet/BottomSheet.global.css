@@ -1,0 +1,486 @@
+@keyframes move {
+  0% {
+    top: -50px;
+  }
+  50% {
+    top: -60px;
+  }
+  to {
+    top: -50px;
+  }
+}
+@keyframes checkmarkAnimation {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  to {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.c-blocoComparador {
+  bottom: 0;
+  text-align: center;
+  z-index: 999;
+  position: fixed;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  transition: all 0.4s ease-in-out;
+}
+
+.c-blocoComparador a {
+  text-decoration: none;
+  color: unset;
+  font-size: inherit;
+}
+
+.c-blocoComparador li {
+  display: inline-block !important;
+  vertical-align: top;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.c-blocoComparador ul {
+  -ms-flex-align: left;
+  align-items: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  margin: 25px 0;
+  clear: both;
+  transition: all 0.5s ease;
+  text-align: center;
+  padding-left: 30px;
+}
+
+.c-blocoComparador,
+.c-blocoComparador * {
+  font-family: "Gotham A", "Gotham B", "ruble";
+}
+
+.c-blocoComparador li:first-child {
+  margin-left: 0;
+}
+
+.c-blocoComparador .img-block {
+  text-align: center;
+}
+
+.c-blocoComparador img {
+  max-height: 120px;
+  max-width: 120px;
+  margin: 15px auto;
+}
+
+.c-blocoComparador .card-price [class$="price_className"] {
+  display: flex;
+}
+
+.c-blocoComparador .card-price [class$="price_listPrice"] {
+  text-decoration: line-through !important;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.c-blocoComparador .card-price [class$="price_sellingPrice"] {
+  font-weight: 300;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.c-blocoComparador > div {
+  width: 100%;
+  background: #000000 0% 0% no-repeat padding-box;
+  padding: 40px;
+  vertical-align: top;
+  display: flex;
+  margin-left: -1px;
+  padding: 2px 8px 5px;
+  opacity: 0.93;
+  justify-content: center;
+}
+
+.c-blocoComparador li > div {
+  background: #ffffff0a 0% 0% no-repeat padding-box;
+  position: relative;
+  padding: 0 10px;
+  width: auto;
+  min-width: 280px;
+  min-height: 157px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #ffffff14;
+}
+
+.c-blocoComparador li > div.dashed {
+  background: none;
+  border: 1px dashed #ffffff40;
+  border-radius: 5px;
+}
+
+.c-blocoComparador {
+  font-weight: 700;
+}
+
+.c-blocoComparador li > div > p {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 16px;
+  height: 16px;
+  font-size: 0;
+  cursor: pointer;
+  background: url(../../assets/exit-icon.svg) no-repeat 50%;
+  background-size: cover;
+}
+
+.c-blocoComparador li > div > div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 120px;
+}
+
+.c-blocoComparador li > div > div:last-child {
+  width: 140px;
+}
+
+.c-blocoComparador > div > p {
+  color: #fff;
+  font-family: "Gotham A", "Gotham B", "ruble";
+  font-size: 14px;
+  clear: both;
+  color: #fff;
+  width: 20%;
+  top: 0;
+  right: 0;
+  text-align: left;
+  margin: auto 0;
+  margin-left: 40px;
+}
+
+.c-blocoComparador > div > p:before {
+  display: inline-block;
+  content: "";
+  width: 21px;
+  height: 21px;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-top: 6px;
+  position: absolute;
+  right: 0;
+  top: 12px;
+}
+
+.c-blocoComparador > div > p a + a {
+  background: #2d9cdb;
+  border: 1px solid #2d9cbd;
+  border-radius: 4px;
+  color: #fff;
+  max-width: 100%;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 8px 30px;
+  line-height: 48px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 20px;
+  display: none;
+}
+
+.c-blocoComparador .c-best-price strong {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.c-count-checked-checkboxes {
+  font-weight: 700;
+}
+
+.c-blocoComparador li > div > div > p {
+  font-size: 12px;
+}
+
+.c-blocoComparador li > div > div > p:first-child {
+  padding-top: 20px;
+}
+
+.c-blocoComparador .c-price-group .c-best-price + span {
+  color: #afafaf;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.c-blocoComparador .c-price-group > div {
+  line-height: 6px;
+}
+
+.c-blocoComparador
+  .c-price-group
+  .c-payment-installments
+  .c-installments:after {
+  content: "x";
+  display: inline-block;
+}
+
+.c-blocoComparador
+  .c-price-group
+  .c-payment-installments
+  .c-installments
+  + span {
+  color: #afafaf;
+  font-size: 16px;
+  font-family: "Gotham A", "Gotham B", "ruble";
+  font-weight: 400;
+}
+
+.c-blocoComparador
+  .c-price-group
+  .c-payment-installments
+  .c-installments-value {
+  font-family: "Gotham A", "Gotham B", "ruble";
+  font-size: 16px;
+  color: #333f48;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.c-count-checked-checkboxes2,
+.limpar-comparador {
+  display: inline-block;
+}
+
+.limpar-comparador {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-left: 170px;
+  font-family: "Gotham A", "Gotham B", "ruble";
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.c-blocoComparador .c-price-group .c-old-price {
+  font-size: 10px;
+  display: block;
+  color: #333f48;
+  font-weight: 700;
+}
+
+.c-blocoComparador b {
+  display: none;
+}
+
+.c-blocoComparador .c-billet-price-c,
+.c-blocoComparador .c-installment-price {
+  display: block;
+  font-size: 10px;
+  color: #1790de;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.c-blocoComparador .c-installment-price {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Gotham A", "Gotham B", "ruble";
+  margin: 3px 0 5px;
+  display: inline-block;
+}
+
+.c-blocoComparador .c-installment-price strong {
+  color: #1790de;
+  font-weight: 700 !important;
+  font-size: 18px;
+}
+
+.c-blocoComparador .c-installment-price span,
+.c-blocoComparador .c-old-price {
+  display: none;
+}
+
+.c-blocoComparador .c-billet-price-c {
+  margin: 10px 0 5px;
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.c-blocoComparador .c-billet-price-c strong {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.c-blocoComparador .c-best-price {
+  font-weight: 400;
+}
+
+.bottom-sheet .c-blocoComparador {
+  display: none;
+}
+
+.bottom-sheet.display .c-blocoComparador {
+  display: block;
+}
+
+.bottom-sheet.display .c-blocoComparador > div > p:before {
+  background: url(../../assets/seta-comparador-b.png) 50% no-repeat;
+}
+
+.bottom-sheet .c-blocoComparador > div > p:before {
+  background: url(../../assets/seta-comparador.png) 0 no-repeat;
+}
+
+.c-blocoComparador .trocaseta > span {
+  padding-right: 40px;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  margin-top: 25px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 300;
+  width: 100%;
+}
+
+.c-blocoComparador .trocaseta a {
+  border-radius: 24px;
+  display: inline-block;
+  line-height: 30px;
+  text-align: -webkit-auto;
+  font-size: 16px;
+  margin: 15px 15px 15px 0;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  padding: 5px 30px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.c-blocoComparador .trocaseta a:hover {
+  color: #c2c2c2;
+}
+
+.floating {
+  position: fixed;
+  right: 15px;
+  bottom: 70px;
+  width: 70px;
+  height: auto;
+  text-align: center;
+  border-radius: 25px;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+  cursor: pointer;
+}
+
+.floating img {
+  width: 48px;
+  margin: 10px;
+}
+.compare-phone-content-section .device-name {
+  margin-top: 0px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 100px) {
+  .c-blocoComparador {
+    left: 0;
+  }
+
+  .bottom-sheet.produto .c-blocoComparador {
+    display: none !important;
+  }
+  .c-blocoComparador .trocaseta > span {
+    padding-left: 20px !important;
+    padding: 0 !important;
+    margin: 0;
+    position: relative;
+    float: left;
+    width: 49%;
+  }
+
+  .c-blocoComparador .trocaseta a {
+    margin: 0 41px 0 28px;
+    float: right;
+    padding: 2px 12px;
+  }
+  .c-blocoComparador {
+    width: 100%;
+    right: 0;
+    transform: none;
+    min-width: 0;
+  }
+  .c-blocoComparador > div {
+    display: flex;
+    border-radius: 0;
+    float: left;
+    width: 100%;
+    flex-direction: column-reverse;
+    padding: 0 16px;
+  }
+
+  .c-blocoComparador > div > p {
+    position: relative;
+    width: 100%;
+    padding: 24px 0 0 0;
+    margin-left: 0;
+  }
+
+  .c-blocoComparador > div > p > span,
+  .c-blocoComparador > div > p > span > a {
+    display: inline-block;
+    line-height: 14px;
+  }
+  .c-blocoComparador > div > p > span {
+    width: 165px;
+    margin-top: 3px !important;
+  }
+  .c-blocoComparador > div > p,
+  .c-blocoComparador > div > p * {
+    vertical-align: middle;
+  }
+  .c-blocoComparador li > div > div:last-child {
+    margin: 0 0 10px;
+  }
+  .c-blocoComparador > div > p:before {
+    top: 5px !important;
+    margin-top: 31px;
+    margin-right: 0;
+  }
+
+  .c-blocoComparador ul {
+    margin: 25px 0;
+    padding-left: 0;
+    width: 100%;
+  }
+  .c-blocoComparador li > div {
+    padding: 0;
+  }
+  .c-blocoComparador li:first-child{
+    padding-bottom: 16px;
+  }
+}
+@media only screen and (max-width: 634px) {
+  .c-blocoComparador li {
+    margin: 0px auto;
+    width: 100%;
+  }
+}

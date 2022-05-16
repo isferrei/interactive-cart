@@ -1,0 +1,86 @@
+.option-selector-title {
+  margin-bottom: 10px;
+}
+.option-selector-title label {
+  color: white;
+  font-weight: bold;
+}
+.option-selector {
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px;
+  border: 2px solid white;
+  position: relative;
+  width: 100%;
+}
+.selected-option {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.selected-option .select-arrow {
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid white; 
+  border-top: 2px solid white;
+  transform: rotate(-135deg);
+}
+.selected-option.active .select-arrow {
+  transform: rotate(45deg);
+}
+.select-options.show {
+  display: block;
+}
+.select-options {
+  border: 2px solid white;
+  color: black;
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: -2px;
+  width: calc(100% + 4px);
+  z-index: 1100;
+}
+.select-options ul li {
+  background: white;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.select-options ul li:hover {
+  background: #eee;
+}
+.select-options ul li.selected {
+  background: #444;
+  color: white;
+}
+.select-options ul li:last-child {
+  border: none;
+}
+.color-selector-title {
+  margin-bottom: 10px;
+}
+.color-selector-title label {
+  color: white;
+  font-weight: bold;
+}
+.color-selector-title label .color-name {
+  font-weight: normal;
+}
+.color-selector {
+  display: flex;
+}
+.color-selector .color-option {
+  border: 3px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  margin: 0 5px;
+}
+.color-selector .color-option.selected {
+  box-shadow: 0 0 0 2px #333;
+}

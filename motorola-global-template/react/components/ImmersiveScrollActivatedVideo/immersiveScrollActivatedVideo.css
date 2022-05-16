@@ -1,0 +1,149 @@
+.immersive-scroll--main-section {
+  width: 100%;
+}
+
+.immersive-video__animation-wrapper {
+  position: sticky !important;
+  position: -webkit-sticky;
+  overflow: hidden;
+  top: 0 !important;
+}
+
+.immersive-video__content {
+  display: flex;
+  align-items: center;
+  background: #000000;
+}
+
+.immersive-video__video-wrapper {
+  position: relative;
+  width: 100%;
+  top: 0;
+  transform: scale(1.2) !important;
+}
+
+.immersive-video_video-wrapper--reactPlayer iframe {
+  position: relative;
+  left: 0;
+  top: 0;
+  transform: none;
+}
+
+.scrollmagic-pin-spacer {
+  padding-top: 0px !important;
+}
+
+@keyframes opacityAnimation {
+  from {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(-128px);
+    opacity: 1;
+  }
+}
+
+.immersive-video__text-wrapper {
+  color: #fff;
+  text-align: center;
+  text-align: -webkit-center;
+  position: absolute;
+  margin-top: 30vh !important;
+  z-index: 3;
+  font-size: 96px;
+  width: 100vw;
+  margin: auto auto;
+  text-shadow: 0px 0px 30px #000000bf;
+  font-weight: 600;
+  transition: 0.2s;
+  transition-timing-function: ease-in;
+  user-select: none;
+  animation: opacityAnimation 1s forwards;
+}
+
+.immersive-video__text-wrapper h3 {
+  width: 75%;
+}
+
+@keyframes moveUpDescription {
+  from {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(-128px);
+    opacity: 1;
+  }
+}
+
+.immersive-video__text-description {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  gap: 2%;
+  position: absolute;
+  z-index: 1;
+  place-content: center;
+  bottom: 0px;
+  user-select: none;
+}
+
+.immersive-video__text-column {
+  display: flex;
+  flex-direction: column;
+  max-width: 359px;
+  max-height: 210px;
+  color: #fff;
+  transition: 0.2s;
+  transition-timing-function: ease-in;
+  animation: moveUpDescription 1s forwards;
+}
+
+.immersive-video__text-column p {
+  height: 115px;
+}
+
+.immersive-video__text-column h3 {
+  font-weight: 500;
+  font-size: 32px;
+  width: 300px;
+}
+
+@media screen and (max-width: 1024px) {
+  .immersive-video__text-wrapper {
+    font-size: 50px;
+  }
+  .immersive-video__text-column {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .immersive-video__text-wrapper h3 {
+    width: 50%;
+  }
+  .immersive-video__text-wrapper {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 50vh !important;
+  }
+  .immersive-video__text-column {
+    width: 280px;
+  }
+  .immersive-video__video-wrapper {
+    transform: scale(1);
+  }
+  .immersive-video__text-description {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .immersive-video__text-wrapper h3 {
+    width: 75%;
+  }
+}

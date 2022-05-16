@@ -1,0 +1,78 @@
+.offer-card {
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+.offer-card-content {
+  margin-left: 30px;
+}
+.offer-card .offer-card-image {
+  width: 100%;
+  max-width: 100px !important;
+  height: 100%;
+}
+.offer-card .offer-card-image img {
+  width: 100px;
+}
+.offer-card-title {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 300;
+}
+.offer-card-description {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 300;
+}
+.offer-card-container {
+  height: 175px;
+  width: 50%;
+}
+.offer-card-container:nth-child(odd) .offer-card {
+  float: right;
+  padding: 0 100px 0 15px;
+}
+.offer-card-container:nth-child(even) .offer-card {
+  float: left;
+  padding: 0px 15px 0px 100px;
+}
+@media (max-width: 1299px) {
+  .offer-card-container:nth-child(odd) .offer-card {
+    padding: 0 50px 0 15px;
+  }
+  .offer-card-container:nth-child(even) .offer-card {
+    padding: 0px 15px 0px 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .offer-card {
+    width: 600px;
+  }
+}
+@media (max-width: 767px) {
+  .offer-card {
+    padding: 0 15px !important;
+  }
+  .offer-card-container:nth-child(even) .offer-card .offer-card-content {
+    order: 1;
+  }
+  .offer-card-container:nth-child(even) .offer-card .offer-card-image {
+    order: 2;
+  }
+  .offer-card-container {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .offer-card-container:first-child {
+    margin-right: 5px;;
+  }
+  .offer-card-container:last-child {
+    margin-left: 5px;
+  }
+  .offer-card-container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,868 @@
+{
+  "store.home.motorola": {
+    "around": ["moto-store-wrapper"],
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "allowed": [
+      "banner-line",
+      "carousel",
+      "offers",
+      "family-shelf",
+      "news-line",
+      "moto-reg-modal",
+      "search-bar-bottom",
+      "disclaimers"
+    ]
+  },
+  "store.login.motorola": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "required": ["login-content"]
+  },
+  "store.account.motorola": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper", "my-account-wrapper"],
+    "required": ["my-account"]
+  },
+  "store.product.motorola": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "allowed": [
+      "scroll-video-performance",
+      "moto-product-details",
+      "product-html",
+      "component-renderer",
+      "product-reviews",
+      "product-specifications",
+      "faq",
+      "not-found",
+      "disclaimers",
+      "tap-a-tech"
+    ]
+  },
+  "store.orderplaced.motorola": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "allowed": ["cyber-source"],
+    "required": ["order-placed"]
+  },
+  "store.search.motorola": {
+    "preview": {
+      "type": "grid",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "required": ["search-result.motorola"],
+    "allowed": ["banner-line"]
+  },
+  "store.custom.family-page": {
+    "preview": {
+      "type": "grid",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "allowed": [
+      "family-banner-line",
+      "main-features",
+      "collection-shelf",
+      "disclaimers"
+    ]
+  },
+  "store.custom.filterby": {
+    "preview": {
+      "type": "grid",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "allowed": ["moto-filter-by", "disclaimers"]
+  },
+  "store.custom.specials": {
+    "preview": {
+      "type": "grid",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "allowed": ["banner-line", "moto-shelf", "offers"]
+  },
+  "store.custom.landing-page": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "allowed": ["html-editor", "faq", "disclaimers"]
+  },
+  "store.custom.headered-and-footered-page": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "allowed": ["html-editor", "faq"]
+  },
+  "store.custom.headered-and-footered-drupal-page": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "allowed": ["drupal-integration", "disclaimers"]
+  },
+  "store.custom.contact-enterprise": {
+    "allowed": ["contact-enterprise-banner", "contact-enterprise-form"],
+    "around": ["moto-store-wrapper"]
+  },
+  "store.custom.contact-enterprise-thank-you": {
+    "allowed": ["contact-enterprise-banner", "contact-enterprise-thank-you"],
+    "around": ["moto-store-wrapper"]
+  },
+  "store.custom.registration-page": {
+    "allowed": ["moto-reg-page"],
+    "around": ["moto-store-wrapper"]
+  },
+  "store.custom.motorola-marketing-page": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "allowed": ["moto-marketing"]
+  },
+  "store.custom.product-details": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "allowed": [
+      "in-page-nav-with-config",
+      "pdp-hero",
+      "pdp-hero-banner",
+      "pdp-battery-section-swipe",
+      "pdp-battery-fade-in-jack",
+      "modernized-image-gallery",
+      "camera-gallery",
+      "pdp-processor",
+      "pdp-processor-fullbleed",
+      "pdp-processor-fullbleed-odyssey",
+      "sizzle-video",
+      "pdp-my-ux",
+      "drawer-card",
+      "pure-android",
+      "pdp-google",
+      "product-spec",
+      "quick-view",
+      "camera-selfie",
+      "view-spec",
+      "disclaimers",
+      "divider-card",
+      "divider-card1",
+      "divider-card2",
+      "divider-card3",
+      "divider-card4",
+      "omni-channel-odyssey",
+      "faq"
+    ]
+  },
+  "store.custom.product-details-odyssey": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "allowed": [
+      "in-page-nav-with-config",
+      "pdp-hero",
+      "pdp-hero-banner",
+      "pdp-battery-section-swipe",
+      "pdp-battery-fade-in-jack",
+      "modernized-image-gallery",
+      "camera-gallery",
+      "pdp-processor",
+      "pdp-processor-fullbleed",
+      "pdp-processor-fullbleed-odyssey",
+      "sizzle-video",
+      "pdp-my-ux",
+      "drawer-card",
+      "pure-android",
+      "pdp-google",
+      "product-spec",
+      "quick-view",
+      "camera-selfie",
+      "view-spec",
+      "disclaimers",
+      "divider-card",
+      "divider-card1",
+      "divider-card2",
+      "divider-card3",
+      "divider-card4",
+      "omni-channel-odyssey"
+    ]
+  },
+  "store.custom.compare": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "allowed": ["moto-compare-smartphones", "product-price", "disclaimers"]
+  },
+  "store.custom.carrier-compatibility": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "allowed": ["moto-carrier-compatibility"]
+  },
+  "store.custom.motorola-blog-homepage": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "allowed": [
+      "watch-what-is-happening-at-motorola",
+      "moto-home-blog",
+      "moto-blog-most-recent-articles",
+      "employee-spotlight",
+      "blog-header",
+      "blog-footer"
+    ]
+  },
+  "store.custom.motorola-blog-post": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "allowed": ["blog-header", "moto-blog-post", "blog-footer"]
+  },
+  "store.custom.motorola-blog-media-contacts-page": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "allowed": ["blog-header", "moto-blog-media-contacts", "blog-footer"]
+  },
+  "store.custom.motorola-blog-geo-links": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "allowed": ["blog-header", "blog-geo-links", "blog-footer"]
+  },
+
+  "store.custom.motorola-blog-product-innovation-page": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "allowed": [
+      "blog-header",
+      "moto-blog-product-innovation",
+      "moto-blog-pagination",
+      "blog-footer"
+    ]
+  },
+  "store.custom.blog-inside-motorola": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "allowed": ["blog-header", "blog-list-page", "blog-footer"]
+  },
+  "store.custom.motorola-blog-podcast-page": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "allowed": [
+      "blog-header",
+      "moto-blog-podcast",
+      "moto-blog-podcast-details",
+      "moto-blog-pagination",
+      "blog-footer"
+    ]
+  },
+  "store.custom.motorola-quiz": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "allowed": ["no-header", "motorola-quiz-page", "quiz-footer"]
+  },
+  "store.custom.motorola-quiz-response": {
+    "preview": {
+      "type": "box",
+      "height": 600,
+      "fullWidth": true
+    },
+    "allowed": ["no-header", "motorola-quiz-response-page", "quiz-footer"]
+  },
+  "store.esp": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "component": "Esp"
+  },
+  "store.warranty": {
+    "preview": {
+      "type": "box",
+      "height": 1000,
+      "fullWidth": true
+    },
+    "around": ["moto-store-wrapper"],
+    "allowed": ["warranty-redesign"]
+  },
+  "store.customer-support": {
+    "around": ["moto-store-wrapper"],
+    "allowed": ["customer-support"]
+  },
+  "store.custom.gift-with-purchase": {
+    "around": ["moto-store-wrapper"],
+    "allowed": [
+      "moto-gift-with-purchase-banner",
+      "moto-gift-with-purchase-form"
+    ]
+  },
+  "contact-enterprise-form": {
+    "component": "ContactEnterpriseForm"
+  },
+  "contact-enterprise-thank-you": {
+    "component": "ContactEnterpriseThankYou"
+  },
+  "contact-enterprise-banner": {
+    "component": "ContactEnterpriseBanner"
+  },
+  "header": {
+    "component": "Header",
+    "allowed": [
+      "notification-bar",
+      "telemarketing",
+      "minicart.v2",
+      "subnav",
+      "navbar",
+      "login",
+      "locale-switcher",
+      "search-bar",
+      "vtex.store-components:product-name",
+      "product-price",
+      "add-to-cart-button",
+      "foc",
+      "minicart-checkout-button"
+    ],
+    "composition": "children"
+  },
+  "footer": {
+    "allowed": ["current-location", "copy-right", "footer-nav", "social-icons", "unsubscribe-link"],
+    "component": "Footer"
+  },
+  "warranty": {
+    "component": "Warranty"
+  },
+  "copy-right": {
+    "component": "CopyRight"
+  },
+  "footer-nav": {
+    "component": "FooterNav"
+  },
+  "social-icons": {
+    "component": "SocialIcons"
+  },
+  "html-editor": {
+    "component": "HTMLEditor"
+  },
+  "header-custom": {
+    "component": "HeaderCustom"
+  },
+  "footer-custom": {
+    "component": "FooterCustom"
+  },
+  "search-content": {
+    "allowed": ["not-found", "gallery"]
+  },
+  "subnav": {
+    "component": "Subnav"
+  },
+  "navbar": {
+    "component": "Navbar",
+    "allowed": ["subnav", "social-icons"]
+  },
+  "product-reviews": {
+    "allowed": ["bazaarvoice"],
+    "component": "ProductReviews"
+  },
+  "bazaarvoice": {
+    "component": "vtex.bazaarvoice/Reviews"
+  },
+  "bazaarvoiceinline": {
+    "component": "vtex.bazaarvoice/RatingSummary"
+  },
+  "product-specifications": {
+    "component": "ProductSpecifications"
+  },
+  "product-html": {
+    "component": "ProductHTML"
+  },
+  "moto-product-details": {
+    "component": "MotoProductDetails",
+    "allowed": [
+      "bazaarvoiceinline",
+      "sku-selector",
+      "unsubscribe-link",
+      "sku-selector-custom",
+      "product-teaser.product.affirm",
+      "moto-trade-in",
+      "add-to-cart-button",
+      "product-price",
+      "product-images",
+      "modal-3d-render"
+    ]
+  },
+  "modal-3d-render": {
+    "component": "Modal3DRender"
+  },
+  "carousel": {
+    "component": "Carousel"
+  },
+  "ArrowUp": {
+    "component": "ArrowUp"
+  },
+  "banner-line": {
+    "component": "BannerLine"
+  },
+  "family-banner-line": {
+    "component": "FamilyBannerLine"
+  },
+  "main-features": {
+    "component": "MainFeatures"
+  },
+  "product-summary": {
+    "component": "vtex.product-summary/ProductSummaryLegacy"
+  },
+  "store-wrapper": {
+    "component": "vtex.store/StoreWrapper"
+  },
+  "moto-store-wrapper": {
+    "component": "MotoStoreWrapper"
+  },
+  "moto-store-wrapper-custom": {
+    "component": "MotoStoreWrapperCustom"
+  },
+  "offers": {
+    "component": "Offers"
+  },
+  "family-shelf": {
+    "component": "FamilyShelf"
+  },
+  "news-line": {
+    "allowed": ["news-tile", "moto-tile"],
+    "composition": "children",
+    "component": "NewsLine"
+  },
+  "collection-shelf": {
+    "component": "CollectionShelf",
+    "allowed": ["moto-product-block", "moto-product-summary", "not-found"]
+  },
+  "search-result.motorola": {
+    "component": "SearchResult",
+    "required": ["gallery"],
+    "allowed": ["moto-product-block", "moto-product-summary", "not-found"]
+  },
+  "drupal-integration": {
+    "component": "DrupalIntegration"
+  },
+  "moto-product-block": {
+    "component": "MotoProductBlock"
+  },
+  "moto-product-summary": {
+    "component": "MotoProductSummary"
+  },
+  "not-found": {
+    "allowed": ["search-bar"],
+    "component": "NotFound"
+  },
+  "current-location": {
+    "component": "CurrentLocation"
+  },
+  "disclaimers": {
+    "component": "Disclaimers"
+  },
+  "faq": {
+    "component": "FAQ"
+  },
+  "moto-tile": {
+    "component": "MotoTile"
+  },
+  "news-tile": {
+    "component": "NewsTile"
+  },
+  "moto-shelf": {
+    "allowed": ["moto-product-summary", "not-found"],
+    "component": "MotoShelf"
+  },
+  "component-renderer": {
+    "component": "ComponentRenderer"
+  },
+  "moto-reg-page": {
+    "component": "MotoRegPage"
+  },
+  "moto-reg-modal": {
+    "component": "MotoRegModal"
+  },
+  "notification-bar": {
+    "component": "NotificationBar"
+  },
+  "count-down-timer": {
+    "component": "CountDownTimer"
+  },
+  "count-down-timer-odyssey": {
+    "component": "CountDownTimer"
+  },
+  "foc": {
+    "component": "FOC"
+  },
+  "customer-support": {
+    "component": "CustomerSupport"
+  },
+  "moto-marketing": {
+    "component": "MotoMarketing"
+  },
+  "my-account-wrapper": {
+    "component": "MyAccountWrapper"
+  },
+  "cyber-source": {
+    "component": "CyberSource"
+  },
+  "moto-compare-smartphones": {
+    "component": "MotoCompare"
+  },
+  "moto-gift-with-purchase-banner": {
+    "component": "MotoGiftWithPurchaseBanner"
+  },
+  "moto-gift-with-purchase-form": {
+    "component": "MotoGiftWithPurchaseForm"
+  },
+  "moto-gift-with-purchase-thank-you": {
+    "component": "MotoGiftWithPurchaseThankYou"
+  },
+  "moto-carrier-compatibility": {
+    "component": "MotoCarrierCompatibility"
+  },
+  "watch-what-is-happening-at-motorola": {
+    "component": "WatchWhatIsHappeningAtMotorola"
+  },
+  "employee-spotlight": {
+    "component": "EmployeeSpotlight"
+  },
+  "pdp-hero": {
+    "component": "PdpHero"
+  },
+  "camera-gallery": {
+    "component": "CameraGallery"
+  },
+  "quick-view": {
+    "component": "QuickView"
+  },
+  "pdp-battery-section-swipe": {
+    "component": "PdpBatterySectionSwipe"
+  },
+  "pdp-battery-fade-in-jack": {
+    "component": "PdpBatteryFadeInJack"
+  },
+  "modernized-image-gallery": {
+    "component": "ModernizedImageGallery"
+  },
+  "pdp-processor": {
+    "component": "PdpProcessor"
+  },
+  "pdp-processor-fullbleed": {
+    "component": "PdpProcessorFullBleed"
+  },
+  "pdp-processor-fullbleed-odyssey": {
+    "component": "PdpProcessorFullBleedOdyssey"
+  },
+  "sizzle-video": {
+    "component": "SizzleVideo"
+  },
+  "pdp-my-ux": {
+    "component": "PdpMyUx"
+  },
+  "drawer-card": {
+    "component": "DrawerCard"
+  },
+  "pure-android": {
+    "component": "PureAndroid"
+  },
+  "pdp-google": {
+    "component": "PdpGoogle"
+  },
+  "in-page-nav-with-config": {
+    "component": "InPageNavWithConfig"
+  },
+  "pdp-hero-banner": {
+    "component": "PdpHeroBanner"
+  },
+  "product-spec": {
+    "component": "ProductSpec"
+  },
+  "divider-card": {
+    "component": "DividerCard"
+  },
+  "divider-card1": {
+    "component": "DividerCard"
+  },
+  "divider-card2": {
+    "component": "DividerCard"
+  },
+  "divider-card3": {
+    "component": "DividerCard"
+  },
+  "divider-card4": {
+    "component": "DividerCard"
+  },
+  "camera-selfie": {
+    "component": "CameraSelfie"
+  },
+  "view-spec": {
+    "component": "ViewSpec"
+  },
+  "warranty-redesign": {
+    "component": "WarrantyRedesign"
+  },
+  "omni-channel-odyssey": {
+    "component": "OmniChannelOdyssey"
+  },
+  "moto-home-blog": {
+    "component": "MotoHomeBlog"
+  },
+  "blog-header": {
+    "component": "BlogHeader"
+  },
+  "moto-blog-most-recent-articles": {
+    "component": "MotoBlogMostRecentArticles"
+  },
+  "moto-blog-post-header": {
+    "component": "MotoBlogPostHeaderCard"
+  },
+  "moto-blog-post-content": {
+    "component": "MotoBlogPostContent"
+  },
+  "moto-blog-post-share": {
+    "component": "MotoBlogShare"
+  },
+  "moto-blog-post-related-stories": {
+    "component": "MotoBlogRelatedStories"
+  },
+  "moto-blog-press-releases": {
+    "component": "MotoBlogPressReleases"
+  },
+  "moto-blog-downloads": {
+    "component": "MotoBlogDownloads"
+  },
+  "moto-blog-post": {
+    "allowed": [
+      "moto-blog-post-header",
+      "moto-blog-post-content",
+      "moto-blog-press-releases",
+      "moto-blog-downloads",
+      "moto-blog-post-share",
+      "moto-blog-post-related-stories"
+    ],
+    "component": "MotoBlogPost",
+    "composition": "children"
+  },
+  "moto-blog-media-contacts-content": {
+    "component": "MotoBlogMediaContactsContent"
+  },
+  "moto-blog-media-contacts": {
+    "allowed": [
+      "moto-blog-post-header",
+      "moto-blog-media-contacts-content",
+      "moto-blog-post-share"
+    ],
+    "component": "MotoBlogMediaContacts",
+    "composition": "children"
+  },
+  "blog-footer": {
+    "component": "BlogFooter"
+  },
+  "blog-geo-links": {
+    "component": "BlogGeoLinks"
+  },
+  "moto-blog-product-innovation": {
+    "component": "MotoBlogProductInnovation",
+    "composition": "children",
+    "allowed": ["moto-blog-pagination"]
+  },
+  "moto-blog-podcast": {
+    "component": "MotoBlogPodcast",
+    "composition": "children",
+    "allowed": ["moto-blog-pagination"]
+  },
+  "moto-blog-podcast-details": {
+    "component": "MotoBlogPodcastDetails"
+  },
+  "blog-listing": {
+    "component": "BlogListing",
+    "allowed": ["moto-blog-pagination"],
+    "composition": "children"
+  },
+  "blog-featured-stories": {
+    "component": "BlogFeaturedStories"
+  },
+  "blog-leadership": {
+    "component": "BlogLeadership"
+  },
+  "blog-featured-press-kits": {
+    "component": "BlogFeaturedPressKits"
+  },
+  "moto-blog-pagination": {
+    "component": "MotoBlogPagination"
+  },
+  "blog-list-page": {
+    "allowed": [
+      "blog-listing",
+      "blog-featured-stories",
+      "blog-leadership",
+      "blog-featured-press-kits",
+      "moto-blog-pagination"
+    ],
+    "component": "BlogListPage",
+    "composition": "children"
+  },
+  "motorola-quiz-page": {
+    "component": "MotorolaQuizPage"
+  },
+  "motorola-quiz-response-page": {
+    "component": "MotorolaQuizResponsePage"
+  },
+  "sku-selector-custom": {
+    "component": "SKUSelectorCustom"
+  },
+  "moto-filter-by": {
+    "allowed": ["not-found", "filter-navigator", "order-by.v2"],
+    "required": ["gallery"],
+    "component": "MotoFilterBy"
+  },
+  "tap-a-tech": {
+    "component": "TapATech"
+  },
+  "moto-trade-in": {
+    "component": "MotoTradeIn"
+  },
+  "minicart-trade-in": {
+    "component": "TradeInMiniCart"
+  },
+  "minicart-checkout-button": {
+    "component": "CheckoutButton"
+  },
+  "quiz-footer": {
+    "component": "QuizFooter"
+  },
+  "no-header": {
+    "component": "NoHeader"
+  },
+  "minicart-product-list": {
+    "component": "ProductList",
+    "allowed": ["product-list", "minicart-trade-in"]
+  },
+  "minicart-summary": {
+    "component": "Summary",
+    "allowed": ["checkout-summary"],
+    "render": "lazy"
+  },
+  "search-bar-bottom": {
+    "allowed": ["search-bar"],
+    "component": "SearchBarBottom"
+  },
+  "minicart-quantity-selector": {
+    "allowed": ["quantity-selector", "remove-button"],
+    "composition": "children",
+    "component": "MiniCartQuantitySelector"
+  },
+  "immersive-scroll-activated-video": {
+    "component": "ImmersiveScrollActivatedVideo"
+  },
+  "scroll-video-performance": {
+    "component": "ScrollVideoPerformance",
+    "render": "client"
+  },
+  "rogue-header": {
+    "component": "RogueHeader"
+  },
+  "gallery-wall-card": {
+    "component": "GalleryWallCard"
+  },
+  "camera-lens": {
+    "component": "CameraLens"
+  },
+  "camera-software-gallery": {
+    "component": "CameraSoftwareGallery"
+  },
+  "masonry": {
+    "component": "Masonry"
+  },
+  "water-protection": {
+    "component": "WaterProtection"
+  },
+  "accordion": {
+    "component": "Accordion"
+  },
+  "camera-overview": {
+    "component": "CameraOverview"
+  },
+  "comparison-table": {
+    "component": "ComparisonTable"
+  },
+  "scroll-based-photo-gallery": {
+    "component": "ScrollBasedPhotoGallery",
+    "render": "client"
+  }
+}

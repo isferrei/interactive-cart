@@ -1,0 +1,38 @@
+.product-family-mobile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+}
+.product-family-mobile .product-family-mobile-image, .product-family-mobile .family-logo-image {
+  display: flex;
+  justify-content: center;
+}
+.product-family-mobile-image {
+  align-items: center;
+}
+.product-family-mobile .product-family-mobile-image img {
+  height: auto;
+  width: 200px;
+}
+.product-family-mobile .family-logo-image img {
+  height: 30px;
+}
+.product-family-mobile .family-prices {
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  text-align: center;
+  height: 45px;
+  color: #fff;
+}
+.product-family-mobile .family-specifications ul li {
+  width: 310px;
+  color: #fff;
+}
+.product-family-mobile .family-cta {
+  text-align: center;
+  width: 100%;
+  border-radius: 30px;
+}

@@ -1,0 +1,156 @@
+.pdp-hero {
+  position: relative;
+  text-align: center;
+}
+.pdp-hero img {
+  display: block;
+}
+.ph-animation-section {
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  display: inline-block;
+  transform: translate(-50%, -50%);
+}
+.ph-animation-section img {
+  top: 0%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.ph-animation-section {
+  font-family: "GothamLight" !important;
+  line-height: 19px;
+  color: #fff;
+  letter-spacing: 5px;
+  white-space: normal;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.no-visible {
+  opacity: 0;
+}
+.ph-animation-logo {
+  animation: fadeIn 1s;
+  animation-timing-function: linear;
+  opacity: 1;
+}
+.ph-animation {
+  animation: fadeIn 2s;
+  animation-timing-function: linear;
+  opacity: 1;
+}
+.ph-cta a {
+  letter-spacing: 0px;
+  font-weight: bold !important;
+}
+@media screen and (min-width: 320px) {
+  .ph-bg {
+    height: auto;
+    min-height: 450px;
+    width: 100vw;
+  }
+  .ph-animation-section .ph-logo {
+    height: 20px;
+    padding-bottom: 20px;
+  }
+  .ph-animation-section .ph-mobile {
+    height: 215px;
+    padding-bottom: 23px;
+  }
+  .ph-animation-section .ph-content {
+    font-size: 14px;
+    padding-bottom: 12px;
+    letter-spacing: 2px;
+    width:226px;
+  }
+  .ph-cta a {
+    font-size: 14px !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .ph-bg {
+    height: 60vh;
+  }
+  .ph-animation-section .ph-logo {
+    padding-bottom: 40px;
+    height: 30px;
+  }
+  .ph-section .ph-mobile {
+    padding-bottom: 40px;
+    height: 200px;
+  }
+  .ph-animation-section .ph-content {
+    padding-bottom: 27px;
+    font-size: 24px;
+    letter-spacing: 5px;
+    line-height: 29px;
+    width:421px;
+  }
+  .ph-cta a {
+    font-size: 18px !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .ph-bg {
+    height: 90vh;
+  }
+  .ph-animation-section .ph-mobile {
+    height: 250px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .ph-bg {
+    height: 90vh;
+  }
+  .ph-animation-section .ph-logo {
+    padding-bottom: 40px;
+    height: 30px;
+  }
+  .ph-animation-section .ph-mobile {
+    padding-bottom: 40px;
+    height: 350px;
+  }
+  .ph-animation-section .ph-content{
+    width:auto;
+  }
+}

@@ -1,0 +1,94 @@
+.pdp-hero-banner {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: #111E31;
+	z-index: 99;
+}
+
+.phb-container-mobile {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	margin-bottom: 40px;
+	text-align: center;
+}
+.phb-container {
+	position: absolute;
+	left: 12vw;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.phb-video-container {
+	position: relative;
+	padding-top: 130%;
+}
+
+.phb-react-player {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.phb-title {
+	font-size: 18px;
+	line-height: 19px;
+	color: #FFFFFF;
+	font-weight: lighter;
+	margin-bottom: 23px;
+	margin-top: 11px;
+}
+
+.phb-cta .cta a {
+	font-size: 14px;
+	line-height: normal;
+	font-weight: 400;
+	padding: 15px 25px !important;
+}
+
+.phb-cta .cta {
+	padding-top: 0px;
+}
+
+.phb-logo-img {
+	max-width: 195px;
+}
+
+@media (min-width: 768px) {
+	.pdp-hero-banner {
+		position: relative;
+		height: 100%;
+		width: 100%;
+	}
+	.phb-video-container {
+		padding-top: 56.25%;
+	}
+	.phb-title {
+		font-size: 24px;
+		line-height: 29px;
+		margin-bottom: 41px;
+		margin-top: 33px;
+	}
+	.phb-cta .cta a {
+		font-size: 18px;
+		line-height: normal;
+		padding: 10px 25px !important;
+	}
+	.phb-logo-img {
+		max-width: 350px;
+	}
+}
+
+
+/* tablets */
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+	.phb-logo-img {
+		max-width: 250px;
+	}
+	.phb-cta .cta a {
+		padding: 10px 25px !important;
+	}
+}

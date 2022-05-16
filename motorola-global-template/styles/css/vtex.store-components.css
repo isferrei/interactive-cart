@@ -1,0 +1,36 @@
+.carouselImagePlaceholder {
+  max-height: 300px;
+  width: 100% !important;
+}
+.carouselGalleryCursor {
+  width: 100% !important;
+}
+.carouselGaleryThumbs {
+  height: 100% !important;
+}
+.carouselGaleryThumbs .figure {
+  display: flex;
+  justify-content: center;
+}
+.carouselGaleryThumbs .figure .thumbImg {
+  max-height: 130px !important;
+  width: auto !important;
+}
+.gradientBaseBottom, .gradientBaseTop {
+  background: transparent !important;
+}
+.content, .image, .video {
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .content, .image, .video {
+    min-height: 400px !important;
+  }
+}
+.carouselGaleryCursor .swiper-container {
+  display: none !important;
+}
+.skuSelectorNameSeparator,
+.skuSelectorSelectorImageValue {
+  color: #fff;
+}

@@ -1,0 +1,115 @@
+.container {
+  position: relative;
+  color: white;
+  height: auto;
+}
+
+.scrollContainer {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.containerInfo {
+  max-width: none;
+  padding-left: none;
+}
+
+.emptyButton {
+  width: 60px;
+  border: none;
+  background-color: transparent;
+}
+
+.textContainer {
+  flex: 1;
+}
+
+.buttomContainer {
+  height: 3rem;
+}
+
+.buttonCamera {
+  border: none;
+  min-height: 32px;
+  border-radius: 8px;
+  cursor: pointer;
+  padding-left: 16px;
+  padding-top: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-right: 16px;
+  transition: all 200ms ease-in;
+}
+
+.cameraContainer {
+  flex: 1;
+}
+
+.cameraImageContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cameraDescriptionContainer {
+  position: absolute;
+  width: 150px;
+  right: 60px;
+  top: 50px;
+}
+
+@media (min-width: 380px) {
+  .cameraDescriptionContainer {
+    width: 176px;
+    right: 50px;
+    top: 50px;
+  }
+}
+
+@media (min-width: 700px) {
+  .cameraDescriptionContainer {
+    width: 176px;
+    right: 150px;
+    top: 110px;
+  }
+
+  .buttomContainer {
+    width: 100%;
+    height: 3rem;
+  }
+}
+
+@media (min-width: 1023px) {
+  .container {
+    max-width: 1366px;
+    margin: 0 auto;
+  }
+
+  .containerInfo {
+    max-width: 460px;
+    padding-left: 8%;
+  }
+
+  .buttomContainer {
+    width: 100%;
+    height: auto;
+  }
+
+  .cameraDescriptionContainer {
+    width: 272px;
+    right: 50px;
+    top: 185px;
+  }
+}
+
+@media (min-width: 1023px) and (max-width: 1130px) {
+  .cameraDescriptionContainer {
+    width: 190px;
+    right: 20px;
+    top: 120px;
+  }
+}

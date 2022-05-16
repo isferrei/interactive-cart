@@ -1,0 +1,166 @@
+.not-found-section {
+  background-color: #001428;
+  color: #ffffff;
+}
+
+.not-found-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-image: url("./assets/notFoundMobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 564px;
+  text-align: center;
+  background-size: cover;
+}
+
+.not-found-content {
+  margin-top: 175px;
+  margin-bottom: 120px;
+}
+
+.not-found-content h1 {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.not-found-content h2 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #ffffff;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.not-found-content p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
+.not-found-content
+  .vtex-store-components-3-x-searchBarContainer
+  .vtex-input-prefix__group {
+  border: 1px solid #ffffff;
+}
+
+.not-found-content
+  .vtex-store-components-3-x-searchBarContainer
+  .vtex-input-prefix__group
+  input,
+.not-found-content
+  .vtex-store-components-3-x-searchBarContainer
+  .vtex-input-prefix__group
+  span {
+  background-color: #ffffff40;
+}
+
+.not-found-content
+  .vtex-store-components-3-x-searchBarContainer
+  .vtex-store-components-3-x-searchBarIcon.vtex-store-components-3-x-searchBarIcon--search
+  svg,
+.not-found-content
+  .vtex-store-components-3-x-searchBarContainer
+  .vtex-store-components-3-x-searchBarIcon.vtex-store-components-3-x-searchBarIcon--clear
+  svg {
+  color: #ffffff;
+}
+
+.not-found-content
+  .vtex-store-components-3-x-searchBarContainer
+  .vtex-input-prefix__group
+  input.vtex-styleguide-9-x-input {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: normal;
+}
+
+.not-found-content
+  .vtex-store-components-3-x-searchBarContainer
+  .vtex-input-prefix__group
+  input.vtex-styleguide-9-x-input::placeholder {
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-content {
+    margin-top: 250px;
+    margin-bottom: 120px;
+    margin-left: 84px;
+    margin-right: 84px;
+  }
+  .not-found-container {
+    background-image: url("./assets/notFoundTabletP.svg");
+    min-height: 600px;
+  }
+  .not-found-content h1 {
+    font-size: 48px;
+    line-height: 58px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .not-found-content h2 {
+    font-size: 24px;
+    line-height: 36px;
+    width: 436px;
+    margin: 0 auto;
+  }
+  .not-found-content p {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .not-found-container .vtex-store-components-3-x-searchBarContainer {
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .not-found-content {
+    margin-top: 250px;
+    margin-bottom: 120px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .not-found-container {
+    background-image: url("./assets/notFoundTabletL.svg");
+    min-height: 580px;
+  }
+  .not-found-container .vtex-store-components-3-x-searchBarContainer {
+    width: 700px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .not-found-content {
+    margin-top: 160px;
+    margin-bottom: 120px;
+  }
+  .not-found-container {
+    background-image: url("./assets/notFoundDesktop.svg");
+    background-size: auto;
+  }
+  .not-found-content h2 {
+    line-height: 29px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .not-found-container .vtex-store-components-3-x-searchBarContainer {
+    width: 714px;
+  }
+}

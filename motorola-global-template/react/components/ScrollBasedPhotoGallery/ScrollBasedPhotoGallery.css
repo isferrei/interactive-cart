@@ -1,0 +1,124 @@
+.cameraOverview {
+  position: sticky;
+  position: -webkit-sticky;
+}
+
+.textWrapper {
+  transform: translateY(100%);
+}
+
+.photoWrapper {
+  max-width: 1206px !important;
+}
+
+@media (min-width: 1025px) {
+  .photoWrapper {
+    max-height: 640px;
+  }
+}
+
+.textWrapper {
+  transition: 0.7s ease-in-out;
+}
+.photoWrapper {
+  transition: 1s ease-in-out;
+}
+
+.firstImage {
+  transform: translateX(100%);
+}
+
+.secondImage {
+  transform: scale(0.7);
+  max-width: 480px;
+  max-height: 640px;
+  object-fit: cover;
+}
+
+.thirdImage {
+  transform: translateX(-100%);
+}
+
+.mobileImage {
+  object-fit: cover;
+}
+
+.firstImage,
+.secondImage,
+.thirdImage {
+  transition: all 0.8s ease-in-out;
+}
+
+.firstImage,
+.thirdImage {
+  height: 300px;
+}
+
+.step1 .photoWrapper1,
+.step2 .photoWrapper2,
+.step3 .photoWrapper3,
+.step4 .photoWrapper4,
+.step5 .photoWrapper5,
+.stepLast .photoWrapperLast {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.step1 .photoWrapper1 .image,
+.step2 .photoWrapper2 .image,
+.step3 .photoWrapper3 .image,
+.step4 .photoWrapper4 .image,
+.step5 .photoWrapper5 .image,
+.stepLast .photoWrapperLast .image {
+  transform: translateX(0) scale(1);
+}
+
+.step1 .photoWrapper2,
+.step2 .photoWrapper3,
+.step3 .photoWrapper4,
+.step4 .photoWrapper5,
+.stepPreviousLast .photoWrapperLast {
+  transform: translateY(100%);
+}
+
+.step2 .photoWrapper1,
+.step3 .photoWrapper2,
+.step4 .photoWrapper3,
+.step5 .photoWrapper4,
+.stepLast .photoWrapperPreviousLast {
+  transform: translateY(-100%);
+}
+
+.step1 .textWrapper1,
+.step2 .textWrapper2,
+.step3 .textWrapper3,
+.step4 .textWrapper4,
+.step5 .textWrapper5,
+.stepLast .textWrapperLast {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.step2 .textWrapper1,
+.step3 .textWrapper2,
+.step4 .textWrapper3,
+.step5 .textWrapper4,
+.stepLast .textWrapperPreviousLast {
+  transform: translateY(-100%);
+}
+
+.navigation {
+  padding: 18px;
+}
+
+.topButton,
+.bottomButton {
+  transition: 0.3s ease-in-out;
+}
+
+.step1 .topButton,
+.stepLast .bottomButton {
+  cursor: default;
+  pointer-events: none;
+  opacity: 0.08;
+}

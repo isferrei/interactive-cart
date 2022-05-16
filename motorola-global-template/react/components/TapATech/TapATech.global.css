@@ -1,0 +1,11 @@
+#MVSWD_widget .floatBtn {
+    z-index: 1100;
+}
+@media (max-width: 767px) {
+    .in-page-navigation {
+        z-index: 1101!important;
+    }
+    .sidedrawer.open-sidedrawer {
+        z-index: 1102!important;
+    }
+}

@@ -1,0 +1,136 @@
+[class*="about-us"] .content {
+  position: relative;
+}
+[class*="about-us"] #single-column-promo {
+  height: auto;
+  margin-bottom: 2em;
+}
+[class*="about-us"] .flex.flex-grow-1.w-100.flex-column {
+  background-color: #001428;
+  color: #FFFFFF;
+}
+[class*="about-us"] a {
+  color: #FFFFFF;
+}
+[class*="about-us"] .container-fluid {
+  padding-left: 0em;
+  padding-right: 0em;
+}
+[class*="about-us"] .row {
+  display: table;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  margin-top: 32px;
+}
+[class*="about-us"] .viewport-custom-full .row {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+[class*="about-us"] .hero-info h1 {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  margin: 0px;
+}
+[class*="about-us"] .single-column-area h2 {
+  font-weight: 300;
+}
+[class*="about-us"] .hero-info {
+  position: absolute;
+  z-index: 10;
+  bottom: 24px;
+  width: 100%;
+}
+[class*="about-us"] .content .field-type-image {
+  display: none;
+}
+[class*="about-us"] .field-name-field-product-background-image-m {
+  width: 100%;
+  height: 416px;
+}
+[class*="about-us"] .field-name-field-product-background-image-m img {
+  width: 100%;
+  height: 416px;
+  object-fit: cover;
+}
+[class*="about-us"] .col-image:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50%;
+  display: inline-block;
+  background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+[class*="about-us"] .checkout-footer-social {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 767px) {
+  [class*="about-us"] .field-name-field-product-background-image-m {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) {
+  [class*="about-us"] .col-xs-10.col-sm-6.col-md-5.col-lg-5.pv10-ns .field.field-name-field-fullb-description.field-type-text-long.field-label-hidden .field-items .field-item.even {
+    color: #FFFFFF;
+  }
+  [class*="about-us"] .viewport-custom-full .row {
+    font-size: 16px;
+  }
+  [class*="about-us"] .row {
+    margin-top: 48px;
+  }
+  [class*="about-us"] .hero-info h1 {
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0px;
+  }
+  [class*="about-us"] .field-name-field-product-background-image {    
+    width: 100%;
+    height: 512px;
+    display: block !important;
+  }
+  [class*="about-us"] .field-name-field-product-background-image img {    
+    width: 100%;
+    height: 512px;
+    object-fit: cover;
+  }
+  [class*="about-us"] .hero-info {
+    bottom: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="about-us"] .field-name-field-product-background-image {    
+    height: 384px;
+  }
+  [class*="about-us"] .field-name-field-product-background-image img {    
+    height: 384px;
+  }
+}
+
+@media (min-width: 1200px) {
+  [class*="about-us"] .field-name-field-product-background-image {    
+    height: 476px;
+  }
+  [class*="about-us"] .field-name-field-product-background-image img {    
+    height: 476px;
+  }
+}
+
+@media (max-width: 1339px) {
+  [class*="about-us"] .row {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}

@@ -1,0 +1,10 @@
+.offer-cards {
+  align-items: center;
+  display: flex;
+  background-color: #001428;
+}
+@media (max-width: 767px) {
+  .offer-cards {
+    flex-direction: column;
+  }
+}

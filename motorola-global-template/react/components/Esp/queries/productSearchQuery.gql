@@ -1,0 +1,96 @@
+query search(
+  $query: String
+  $map: String
+  $orderBy: String
+  $priceRange: String
+  $from: Int
+  $to: Int
+  $hideUnavailableItems: Boolean = false
+) {
+  productSearch(
+    query: $query
+    map: $map
+    orderBy: $orderBy
+    priceRange: $priceRange
+    from: $from
+    to: $to
+    hideUnavailableItems: $hideUnavailableItems
+  ) {
+    titleTag
+    metaTagDescription
+    products {
+      cacheId
+      categories
+      categoryTree {
+        name
+        href
+      }
+      productId
+      description
+      productName
+      productReference
+      linkText
+      brand
+      link
+      items {
+        itemId
+        name
+        nameComplete
+        complementName
+        ean
+        referenceId {
+          Key
+          Value
+        }
+        measurementUnit
+        unitMultiplier
+        images {
+          cacheId
+          imageId
+          imageLabel
+          imageTag
+          imageUrl
+          imageText
+        }
+        sellers {
+          sellerId
+          sellerName
+          commertialOffer {
+            discountHighlights {
+              name
+            }
+            teasers {
+              name
+            }
+            Installments {
+              Value
+              InterestRate
+              TotalValuePlusInterestRate
+              NumberOfInstallments
+              Name
+            }
+            Price
+            ListPrice
+            PriceWithoutDiscount
+            RewardValue
+            PriceValidUntil
+            AvailableQuantity
+          }
+        }
+      }
+      productClusters {
+        id
+        name
+      }
+      properties {
+        name
+        values
+      }
+    }
+    recordsFiltered
+    breadcrumb {
+      name
+      href
+    }
+  }
+}

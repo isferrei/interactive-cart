@@ -1,0 +1,61 @@
+.rogue-header--container {
+  z-index: 9998;
+  background: linear-gradient(135deg, #1769b154, #3a0f6442, #e96c5442);
+  backdrop-filter: blur(9px);
+  min-height: 64px;
+  width: 100%;
+  color: #fff;
+  top: 0;
+}
+
+.rogue-header--content {
+  max-width: 1390px;
+}
+
+.rogue-header__logo img {
+  max-width: 130px;
+  height: auto;
+}
+
+.rogue-header__menu-section {
+  width: 50%;
+  gap: 103px;
+}
+
+.rogue-header__menu-section p {
+  cursor: pointer;
+}
+
+.rogue-header--icon {
+  transition: 0.3s ease-in-out;
+}
+
+.rogue-header--iconShow {
+  transform: rotate(180deg);
+}
+
+.rogue-header__menu-section--buy-button button,
+.rogue-header__menu-section--buy-button button:hover,
+.rogue-header__menu-section--buy-button a,
+.rogue-header__menu-section--buy-button a:hover {
+  border-radius: 4px;
+  background-color: #fff !important;
+  color: #000a13;
+  height: 48px;
+  max-width: 186px;
+  cursor: pointer;
+  border: none;
+  font-weight: 500 !important;
+  margin-top: 0px !important;
+  text-decoration: none;
+}
+
+.rogue-header__menu-section--buy-button a {
+  padding: 15px 24px;
+}
+
+@media (max-width: 768px) {
+  .rogue-header__logo img {
+    max-width: 110px;
+  }
+}

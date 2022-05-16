@@ -1,0 +1,55 @@
+.slick-dots {
+  bottom: -30px;
+  left: 0 !important;
+  position: absolute !important;
+  width: 100%;
+}
+.slick-prev, .slick-next {
+  z-index: 1000;
+}
+.slick-prev:before, .slick-next:before {
+  background: none !important;
+  border-width: 0px 10px 10px 0px;
+  border-color: white;
+  border-style: solid;
+  height: 50px !important;
+  width: 50px !important;
+  opacity: 1 !important;
+}
+.slick-prev {
+  left: 20px !important;
+}
+.slick-prev:before {
+  transform: rotate(135deg);
+}
+.slick-next {
+  right: 20px !important;
+}
+.slick-next:before {
+  transform: rotate(-45deg);
+}
+.slick-dots button:before {
+  color: black !important;
+  font-size: 12px !important;
+}
+.slick-slide {
+}
+.slick-slide .slider-image {
+  align-items: center;
+  background: black;
+  border-radius: 20px;
+}
+.slick-slide .slider-image img {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.slick-slide.slick-current img {
+  opacity: 1;
+}
+.slider-header {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+}

@@ -1,0 +1,12 @@
+.multi-editorial-card .mec-vimeo-wrapper {
+   height:210px;
+   width: 100%;
+}
+.mec-lazyload-default-img {
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}

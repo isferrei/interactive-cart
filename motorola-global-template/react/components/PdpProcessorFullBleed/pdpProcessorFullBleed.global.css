@@ -1,0 +1,201 @@
+.pdp-processor {
+  position: relative;
+  height: 100%;
+  color: #ffffff;
+  overflow: hidden;
+}
+.pdp-processor .pp-image-layer img {
+  display: block;
+}
+.pdp-processor .pp-text-content {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+}
+.pdp-processor .pp-text-layer {
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  height: 100%;
+}
+.pdp-processor .pp-text-container {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+}
+.pdp-processor .pp-desc {
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 16px;
+  padding-top: 25px;
+}
+.pdp-processor .pp-title {
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-weight: lighter;
+  opacity: 1;
+}
+.pdp-processor .pp-title.yes {
+  color: #00111d;
+  text-shadow: #fff 0px 0px 1px, #fff 0px 0px 1px, #fff 0px 0px 1px,
+    #fff 0px 0px 1px, #fff 0px 0px 1px, #fff 0px 0px 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+  .pdp-processor .pp-text-layer {
+    padding: 30px 35px 42px 35px;
+  }
+  .pdp-processor .pp-image-layer .pp-img-wrap.zoom-in-effect {
+    padding-bottom: 46px;
+  }
+}
+@media screen and (orientation: landscape) and (max-device-width: 767px) {
+  .pdp-processor .pp-image-layer .pp-img-wrap.zoom-in-effect {
+    padding-bottom: 72px;
+  }
+}
+@media screen and (orientation: landscape) and (max-device-width: 991px) {
+  .pdp-processor .pp-image-layer {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .pdp-processor .pp-image-layer {
+    display: flex;
+  }
+  .pdp-processor .pp-img-wrap {
+    width: 100%;
+  }
+  .pdp-processor .pp-image-layer.left-aligned {
+    justify-content: flex-start;
+  }
+  .pdp-processor .pp-image-layer.right-aligned {
+    justify-content: flex-end;
+  }
+  .pdp-processor .pp-text-layer {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    height: 100%;
+  }
+  .pdp-processor .pp-text-content {
+    padding: 30px 0px;
+    display: flex;
+  }
+  .pdp-processor .pp-text-content.left-aligned {
+    width: 50%;
+    text-align: left;
+    float: left;
+  }
+  .pdp-processor .pp-text-content.right-aligned {
+    width: 50%;
+    text-align: left;
+    float: right;
+  }
+  .pdp-processor .pp-text-content.left-aligned .pp-center-vertical,
+  .pdp-processor .pp-text-content.right-aligned .pp-center-vertical {
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .pdp-processor .pp-text-content.left-aligned .pp-center-vertical {
+    padding-left: 25%;
+    padding-right: 14%;
+  }
+  .pdp-processor .pp-text-content.right-aligned .pp-center-vertical {
+    padding-right: 25%;
+    padding-left: 14%;
+  }
+  .pdp-processor .pp-text-content .pp-center-vertical {
+    align-self: center;
+  }
+  .pdp-processor .pp-desc {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@-moz-keyframes zoomInEffect {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+@-ms-keyframes zoomInEffect {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+@-o-keyframes zoomInEffect {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+@keyframes zoomInEffect {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+.pdp-processor .pp-img-wrap.zoom-in-effect {
+  animation: zoomInEffect 2s;
+  animation-timing-function: ease-in-out;
+  transform: scale(1.5);
+}
+
+/* ===================== */
+
+@-moz-keyframes zoomInEffectReverse {
+  from {
+    transform: scale(1.5);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+@-ms-keyframes zoomInEffectReverse {
+  from {
+    transform: scale(1.5);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes zoomInEffectReverse {
+  from {
+    transform: scale(1.5);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+@keyframes zoomInEffectReverse {
+  from {
+    transform: scale(1.5);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+.pdp-processor .pp-img-wrap {
+  animation: zoomInEffectReverse 2s;
+  animation-timing-function: ease-in-out;
+  transform: scale(1, 1);
+}

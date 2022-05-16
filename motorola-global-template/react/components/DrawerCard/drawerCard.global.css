@@ -1,0 +1,221 @@
+.drawer-card-wrapper {
+  background-color: #111e31;
+  color: #ffffff;
+  position: relative;
+}
+.dc-content-section {
+  font-weight: lighter;
+}
+.dc-content-layer {
+  margin: 0 auto;
+}
+.dc-inner-section-close {
+  margin-top: 50px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.dc-inner-section-close-icon {
+  width: 50px;
+  cursor: pointer;
+}
+.dc-video-section {
+  position: relative;
+}
+
+.dc-react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.dc-cta {
+  font-weight: lighter;
+}
+@media screen and (min-width: 320px) {
+  .drawer-card-wrapper {
+    padding-top: 20px;
+  }
+  .dc-content-section {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .dc-headline {
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 19px;
+  }
+  .dc-content-layer {
+    padding: 0 62px;
+  }
+  .dc-content {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: lighter;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+  .dc-inner-section-content {
+    text-align: center;
+    padding: 0 62px;
+  }
+  .dc-cta {
+    font-size: 14px !important;
+    line-height: normal;
+  }
+  .dc-video-section {
+    padding-bottom: 100%;
+  }
+  .dc-inner-section {
+    text-align: center;
+    margin-top: 59px;
+  }
+  .dc-inner-section-description-layer {
+    margin-top: 36px;
+  }
+  .dc-inner-section-headline {
+    margin-bottom: 16px;
+    font-size: 16px;
+  }
+  .dc-inner-section-body {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .dc-inner-section-close-icon img {
+    width: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .drawer-card-wrapper {
+    margin-top: -2px;
+  }
+  .dc-content,
+  .dc-inner-section-body {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: lighter;
+  }
+  .dc-inner-section-content {
+    padding: 0 56px;
+  }
+  .dc-headline,
+  .dc-inner-section-headline {
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .dc-cta {
+    font-size: 18px !important;
+    line-height: normal;
+  }
+}
+@media screen and (min-width: 992px) {
+  .drawer-card-wrapper {
+    padding-top: 50px;
+  }
+  .dc-card-main-section {
+    display: flex;
+    overflow: hidden;
+    height: 550px;
+    width: auto;
+  }
+  .dc-video-section {
+    margin-bottom: 0px;
+    padding-bottom: 0;
+  }
+  .dc-content-section {
+    text-align: left;
+    position: relative;
+  }
+  .dc-content-layer {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .dc-headline,
+  .dc-inner-section-headline {
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 27px;
+  }
+  .dc-content,
+  .dc-inner-section-body {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: lighter;
+  }
+  .dc-inner-section-body {
+    margin: 0;
+  }
+  .dc-inner-section {
+    margin-top: 0px;
+    position: relative;
+  }
+  .dc-inner-section-description-layer {
+    position: absolute;
+    top: 34%;
+    margin-top: 0;
+  }
+  .dc-inner-section-description-layer.content-left {
+    padding-left: 68px;
+    width: 50%;
+  }
+  .dc-inner-section-description-layer.content-left div {
+    text-align: left;
+  }
+  .dc-inner-section-description-layer.content-right {
+    right: 0;
+    padding-right: 50px;
+    width: 50%;
+  }
+  .dc-inner-section-description-layer.content-right div {
+    text-align: left;
+  }
+  .dc-inner-section-description-layer.content-center {
+    text-align: center;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+  .dc-inner-section-description-layer.horizontal-top {
+    top: -20px;
+    padding-top: 0px;
+  }
+  .dc-inner-section-description-layer.horizontal-bottom {
+    top: 70%;
+  }
+  .dc-cta {
+    font-size: 18px !important;
+    line-height: normal;
+  }
+  .dc-content-layer {
+    padding: 0;
+  }
+  .dc-card-main-section {
+    margin-bottom: 0px;
+  }
+  .dc-inner-section-close-icon img {
+    width: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .dc-card-main-section {
+    height: 745px;
+  }
+  .dc-inner-section-description-layer.content-left {
+    padding-left: 200px;
+  }
+  .dc-inner-section-description-layer.content-right {
+    padding-right: 200px;
+  }
+  .dc-inner-section-description-layer.horizontal-top {
+    top: 0;
+    padding-top: 100px;
+  }
+  .dc-inner-section-description-layer {
+    top: 40%;
+  }
+}

@@ -1,0 +1,141 @@
+.news-line-container {
+  padding-bottom: 24px;
+  position: relative;
+  z-index: 10;
+}
+.news-line {
+  display: flex;
+}
+.news-tile, .moto-tile {
+  box-sizing: border-box;
+}
+.news-tile {
+  background: #e8edf2;
+  justify-content: center;
+  padding: 50px 20px;
+  display: flex;
+  width: 600px;
+}
+.news-tile img {
+  max-width: 200px;
+  margin-left: 80px;
+}
+.news-tile .news-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+.news-tile .news-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+.news-tile .news-headline {
+  font-size: 26px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.news-tile .news-date {
+  color: #ffffff;
+  font-size: 14px;
+}
+.news-tile .news-cta {
+  font-size: 14px;
+  font-weight: bold;
+}
+.moto-tile {
+  align-items: center;
+  padding: 50px 20px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.moto-tile .tile-icon {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.moto-tile .tile-icon img {
+  height: 38px;
+  width: 38px;
+}
+.moto-tile .tile-title {
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+.moto-tile .tile-cta {
+  font-size: 14px;
+  font-weight: bold;
+}
+.moto-tile .moto-tile-content {
+  text-align: center;
+}
+.moto-tile.tile-pink {
+  background: #f04187;
+  color: white;
+}
+.moto-tile.tile-blue {
+  background: #46c8e1;
+  color: white;
+}
+@media (min-width: 992px) {
+  .news-line {
+    max-height: 250px;
+  }
+}
+@media (max-width: 991px) {
+  .news-line {
+    flex-wrap: wrap;
+    max-height: none;
+  }
+  .news-tile {
+    align-items: center;
+    flex-basis: 100%;
+    padding: 30px;
+  }
+  .news-tile img {
+    max-width: none;
+    margin-left: 0;
+    width: 100%;
+  }
+  .news-tile .news-content {
+    padding: 30px;
+    margin: 0;
+    width: 100%;
+  }
+  .moto-tile {
+    flex-basis: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .news-line {
+    flex-direction: column;
+    width: 100%;
+  }
+  .news-tile {
+    flex-direction: column;
+  }
+  .news-tile .news-content {
+    padding: 0;
+    padding-top: 20px;
+  }
+  .news-tile, .moto-tile {
+    width: 100%;
+  }
+  .moto-tile {
+    flex-direction: row;
+  }
+  .moto-tile .tile-icon {
+    width: auto;
+    margin-right: 20px;
+  }
+  .moto-tile .moto-tile-content {
+    flex: 1;
+  }
+  .moto-tile .moto-tile-content, .moto-tile .tile-title {
+    text-align: left;
+  }
+}

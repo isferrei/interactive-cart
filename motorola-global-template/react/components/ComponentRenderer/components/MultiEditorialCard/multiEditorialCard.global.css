@@ -1,0 +1,116 @@
+.multi-editorial-card {
+  padding: 0 15px;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+}
+
+.multi-editorial-card .mec-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 5px;
+  display: inline-block;
+  width: 100%;
+}
+
+.multi-editorial-card .mec-container .mec-header {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.multi-editorial-card .mec-container .mec-header strong {
+  font-weight: bold;
+}
+
+.multi-editorial-card .mec-container .mec-header h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.multi-editorial-card .mec-container .mec-header h2 {
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.multi-editorial-card .mec-container .mec-header h3 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+}
+
+.multi-editorial-card .mec-container .mec-header h4 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.multi-editorial-card .mec-container .mec-header h5 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.multi-editorial-card .mec-container .mec-header h6 {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.multi-editorial-card .mec-container .mec-header .headline-bold {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 37px;
+}
+
+.multi-editorial-card .mec-container .mec-multi-editorial-columns {
+  margin-top: 20px;
+  margin-bottom: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+  flex-direction: row;
+  gap: 64px !important;
+}
+
+@media screen and (min-width: 768px) {
+  .multi-editorial-card {
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+  }
+
+  .multi-editorial-card .mec-container {
+    max-width: 1200px;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+  }
+
+  .multi-editorial-card .mec-container .mec-multi-editorial-columns {
+    display: flex;
+  }
+}
+
+@media (min-width: 992px) {
+  .multi-editorial-card .mec-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .multi-editorial-card {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

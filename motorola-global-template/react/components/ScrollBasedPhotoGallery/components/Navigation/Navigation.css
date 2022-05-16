@@ -1,0 +1,13 @@
+@media (max-width: 480px) {
+  .notFullWidth {
+    padding-right: 48px;
+    min-height: 120px;
+  }
+}
+
+@media (max-width: 380px) {
+  .notFullWidth {
+    padding-right: 32px;
+    min-height: unset;
+  }
+}

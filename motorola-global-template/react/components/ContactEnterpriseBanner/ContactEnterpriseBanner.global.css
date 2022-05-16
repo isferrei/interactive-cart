@@ -1,0 +1,26 @@
+.contact-enterprise-form-banner {
+  width: 100%;
+}
+
+.contact-enterprise-form-banner img {
+  max-width: 100%;
+}
+
+.contact-enterprise-form-banner .row .column {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.contact-enterprise-form-banner .column img {
+  max-width: 100%;
+  max-height: 175px;
+}
+
+.contact-enterprise-form-banner img {
+  max-height: 175px;
+  width: 100%;
+}
+
+.contact-enterprise-form-banner .no-link {
+  cursor: auto;
+}

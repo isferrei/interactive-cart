@@ -1,0 +1,232 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.checkout-footer {
+  z-index: 100;
+  position: relative;
+  font-family:  "Gotham A","Gotham B",'ruble';
+}
+@media (max-width: 1339px) {
+  .f-row {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+.checkout-footer-social {
+  background-color: #001428;
+  position: relative;
+  z-index: 10;
+  padding: 1.5em 0;
+}
+.unsubscribe-wrapper {
+  background-color: #001428;
+}
+.unsubscribe-wrapper > div {
+  margin: 0 !important;
+  padding: 1rem 0 !important;
+}
+.checkout-footer-social-icons {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  width: 100%;
+  grid-gap: 0.5rem;
+  align-items: center;
+}
+.checkout-footer-social-icons h4 {
+  font-weight: 300;
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+}
+@media (min-width: 481px) {
+  .checkout-footer-social-icons h4 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .checkout-footer-social-icons h4 {
+    font-size: 14px;
+  }
+}
+.checkout-footer-social-icons ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media (min-width: 481px) {
+  .checkout-footer-social-icons ul li {
+    padding: 0 0.5em;
+  }
+}
+@media (max-width: 480px) {
+  .checkout-footer-social-icons ul li {
+    padding-right: 1em;
+  }
+}
+.checkout-footer-social-icons ul li a {
+  display: block;
+}
+.checkout-footer-social-icons ul li a img {
+  height: 16px;
+  width: auto;
+  vertical-align: middle;
+}
+.checkout-footer-links {
+  background-color: #001428;
+  padding: 3em 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+.checkout-footer-links-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+  .checkout-footer-links-accordion {
+    width: 25%;
+  }
+}
+@media (max-width: 767px) {
+  .checkout-footer-links-accordion {
+    width: 100%;
+  }
+  .checkout-footer-links-accordion:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+  }
+  .checkout-footer-links .container{
+    width:100% !important;
+  }
+  .checkout-footer-copy .container{
+    width:100% !important;
+  }
+  .checkout-footer-social .container{
+    width:100% !important;
+  }
+}
+.checkout-footer-links-accordion h6 {
+  font-size: 22px;
+  color: #FFFFFF;
+}
+@media (min-width: 768px) {
+  .checkout-footer-links-accordion h6 {
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 767px) {
+  .checkout-footer-links-accordion h6 {
+    margin: 20px 0;
+    position: relative;
+  }
+  .checkout-footer-links-accordion h6:after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    right: 5px;
+    top: 3px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    transform: rotate(-45deg);
+    transition: all 0.3s cubic-bezier(0.65, 0.05, 0.36, 1);
+  }
+  .checkout-footer-links-accordion h6.show:after {
+    transform: rotate(45deg);
+  }
+  .checkout-footer-links-accordion ul {
+    overflow: hidden;
+    height: 0;
+    /* margin-bottom: 2em; */
+  }
+  .checkout-footer-links-accordion ul.footer-accordion-open {
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 2em;
+  }
+  .checkout-footer-links-accordion ul li a {
+    padding: 10px 0;
+  }
+}
+.checkout-footer-links-accordion ul li {
+  display: flex;
+}
+.checkout-footer-links-accordion ul li a {
+  font-weight: 300;
+  font-size: 14px;
+  padding: 5px 0;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.checkout-footer-links-accordion ul li a:hover {
+  color: #D2D2D2;
+}
+.checkout-footer-copy {
+  background: #001428;
+  padding: 2em 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+.checkout-footer-copy, .checkout-footer-copy *  {
+  font-weight: 300;
+}
+.checkout-footer-copy-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 2em;
+}
+.checkout-footer-copy-location ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.checkout-footer-copy-location-flag span {
+  background-image: url("https://motorolaimgrepo.vteximg.com.br/arquivos/ico-flags-sprite.png");
+  background-position: 0 -225px;
+  width: 26px;
+  height: 16px;
+  display: block;
+}
+.checkout-footer-copy-location-name p {
+  margin: 0 1em;
+  color: #ffffff;
+}
+.checkout-footer-copy-location-name p:after {
+  content: "|";
+  margin-left: 1em;
+  position: relative;
+  font-size: 18px;
+  top: -1px;
+}
+.checkout-footer-copy-location-btn a {
+  color: #ffffff;
+}
+.checkout-footer-copy-col {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+}
+@media (min-width: 768px) {
+  .checkout-footer-copy-col {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .checkout-footer-copy-col {
+    width: 100%;
+  }
+  .checkout-footer-copy-col.logo-col {
+    margin-bottom: 2em;
+  }
+}
+.checkout-footer-copy-col.logo-col {
+  padding-right: 4em;
+  font-size: 16px;
+  font-weight: 300;
+}
+.checkout-footer-copy-col.logo-col img {
+  height: 40px;
+  width: auto;
+  margin-bottom: 2em;
+}

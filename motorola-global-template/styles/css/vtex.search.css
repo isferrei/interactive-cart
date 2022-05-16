@@ -1,0 +1,39 @@
+.biggy-autocomplete {
+  flex-direction: column !important;
+  z-index: 999;
+  padding-top: 0;
+}
+
+.biggy-autocomplete .tileList {
+  max-height: 10vw;
+}
+
+.biggy-autocomplete .tileListList {
+  display: flex;
+  flex-direction: column !important;
+}
+
+.biggy-autocomplete :global(.vtex-product-summary-2-x-containerNormal--shelf-autocomplete) {
+  max-width: 90% !important;
+}
+
+.biggy-autocomplete :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 20% !important;
+}
+
+.biggy-autocomplete :global(.vtex-flex-layout-0-x-stretchChildrenWidth):not(:first-child) {
+  width: 80% !important;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.biggy-autocomplete :global(.vtex-product-price-1-x-sellingPriceValue) {
+  color: #001428;
+}
+
+.biggy-autocomplete :global(.vtex-product-summary-2-x-imageContainer) {
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+}

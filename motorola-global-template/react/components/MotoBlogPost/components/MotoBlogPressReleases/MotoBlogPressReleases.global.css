@@ -1,0 +1,289 @@
+.moto-blog-press-releases {
+  background: #001428;
+  padding-left: 16px;
+  padding-bottom: 30px;
+  padding-right: 16px;
+  padding-top: 32px;
+}
+
+.moto-blog-press-releases-section-title {
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 24px;
+}
+
+.mbpr-category-section,
+.mbpr-desc {
+  display: none;
+}
+
+.mbpr-category {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 9px 12px;
+  border: 1px solid #fff;
+  border-radius: 16px;
+  margin-right: 12px;
+}
+
+.moto-blog-press-releases-container-item {
+  margin-bottom: 16px;
+  background: #000000 0% 0% no-repeat padding-box;
+  height: 34vw;
+  max-height: 34vw;
+}
+
+.mbpr-image {
+  width: 35%;
+  max-width: 35%;
+  height: 34vw;
+  max-height: 34vw;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.mbpr-image img {
+  height: 100%;
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.mbpr-content {
+  width: 65%;
+  max-width: 65%;
+  height: 34vw;
+  max-height: 34vw;
+  background: #000000;
+  display: inline-block;
+}
+
+.mbpr-title {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  display: block;
+  padding: 16px;
+}
+
+.mbpr-desc {
+  color: #ABABAB;
+  font-weight: 300;
+}
+
+.mbpr-date {
+  color: #7f7f7f;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: block;
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+.moto-blog-press-releases .no-link {
+  cursor: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .moto-blog-press-releases-section-title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .moto-blog-press-releases-container-item {
+    width: 100%;
+    max-width: 100%;
+    height: 39vw;
+    max-height: 39vw;
+    margin-bottom: 24px;
+    margin-right: 18px;
+    position: relative;
+  }
+
+  .moto-blog-press-releases-container-item:nth-child(2) {
+    margin-right: 0;
+  }
+
+  .mbpr-category-section {
+    display: inline-block;
+    padding-top: 24px;
+  }
+  .mbpr-category-section.mbpr-category-section-two {
+    padding-left: 0px;
+  }
+  .mbpr-title {
+    font-size: 21px;
+    line-height: 32px;
+    padding: 16px 38px 24px 24px;
+  }
+  .mbpr-desc {
+    font-size: 14px;
+    line-height: 21px;
+    display: inline-block;
+    padding-bottom: 28px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .mbpr-desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;
+    max-height: 48px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  .mbpr-date {
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 28px;
+  }
+  .mbpr-date,
+  .mbpr-category-section {
+    padding-left: 24px;
+  }
+  .mbpr-image {
+    width: 40%;
+    max-width: 40%;
+    height: 100%;
+    max-height: 100%;
+    display: inline-block;
+  }
+
+  .mbpr-content {
+    width: 60%;
+    height: auto;
+    display: inline-block;
+    background: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .moto-blog-press-releases {
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+  }
+  .moto-blog-press-releases-section-title {
+    padding-bottom: 32px;
+  }
+  .moto-blog-press-releases-container-item {
+    height: 30vw;
+    max-height: 30vw;
+  }
+  .moto-blog-press-releases-container-item:last-child {
+    margin-bottom: 0;
+  }
+  .mbpr-image {
+    width: 35%;
+    max-width: 35%;
+  }
+  .mbpr-content {
+    width: 65%;
+  }
+  .mbpr-content-wrapper {
+    transform: translateY(25px);
+  }
+  .mbpr-title {
+    padding: 16px 38px 24px 24px;
+  }
+
+  .mbpr-desc {
+    padding-left: 24px;
+    padding-bottom: 28px;
+    padding-right: 102px;
+  }
+
+  .mbpr-desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;
+    max-height: 48px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  .mbpr-date {
+    padding-left: 24px;
+    padding-bottom: 24px;
+    padding-top: 28px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .moto-blog-press-releases-container-item {
+    width: 100%;
+    max-width: 100%;
+    height: 22vw;
+    max-height: 22vw;
+    margin-bottom: 24px;
+    display: inline-block;
+    position: relative;
+  }
+
+  .moto-blog-press-releases-container-item:nth-child(2) {
+    margin-right: 18px;
+  }
+
+  .moto-blog-press-releases-container-item:last-child {
+    margin-right: 0;
+    display: inline-block;
+  }
+
+  .mbpr-category-section {
+    padding-left: 24px;
+    display: inline-block;
+  }
+  .mbpr-image {
+    width: 24%;
+    max-width: 24%;
+  }
+  .mbpr-content {
+    width: 76%;
+    max-width: 76%;
+    height: 22vw;
+    max-height: 22vw;
+  }
+  .mbpr-content-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .mbpr-desc {
+    display: inline-block;
+  }
+  .mbpr-desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;
+    max-height: 64px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+  .mbpr-title {
+    font-size: 21px;
+    line-height: 32px;
+    padding: 16px 38px 24px 24px;
+  }
+
+  .mbpr-date {
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+  }
+}

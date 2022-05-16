@@ -1,0 +1,124 @@
+.gwp-banner{
+ position:relative;
+}
+
+.description-container{
+    height: auto;
+    position: absolute;
+    top: 35%;
+    margin-left: 20%;
+    color: white;
+}
+
+.gwp-banner-description{
+    font-size: 20px;
+    max-width: 480px;
+}
+
+.gwp-banner-description-sub-head{
+    font-size: 18px;
+    width: 60%;
+    margin-top: 17px;
+}
+
+
+.gift-with-purchase .form-container,
+.gwp-thank-you .gwp-thank-you-container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.gwp-thank-you .gwp-thank-you-container {
+    padding: 20px;
+}
+
+
+.gift-with-purchase .privacy-policy-section,
+.gift-with-purchase .gwp-desc,
+.gift-with-purchase .imeiDesc-text,
+.gift-with-purchase .condition-desc,
+.gift-with-purchase .terms-conditions,
+.gift-with-purchase .cta-section{
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.description-container{
+    top: 18%;
+    margin-left: 20px;
+}
+
+.gift-with-purchase .form-content .form-field,
+.gift-with-purchase .form-content .form-field-select{
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+
+.gift-with-purchase .form-content .form-field-select{
+    flex-direction: row;
+    align-items: center;
+}
+
+.gift-with-purchase .multi-select-province,
+.gift-with-purchase .multi-select {
+    width: 66.7%;
+    max-width: 480px;
+}
+
+.gift-with-purchase .multi-select-date {
+    width: 22.23%;
+    max-width: 160px;
+}
+
+.gift-with-purchase .form-content div .vtex-input-prefix__group {
+    width: 100%;
+    max-width: 480px;
+}
+
+.gwp-thank-you .gwp-thankyou-formcontent > div{
+    margin: 15px 0;
+}
+
+@media only screen and (min-width: 1024px) {
+    .gwp-banner-description{
+        font-size: 30px;
+    }
+
+    .gwp-thankyou-header {
+        font-size: 35px;
+    }
+
+    .gift-with-purchase .form-container {
+        padding: 20px;
+    }
+    .gwp-thank-you .gwp-thank-you-container {
+        padding: 20px 60px;
+    }
+    .description-container{
+        top: 35%;
+        margin-left: 20%;
+    }
+    .gift-with-purchase .privacy-policy-section,
+    .gift-with-purchase .gwp-desc,
+    .gift-with-purchase .imeiDesc-text,
+    .gift-with-purchase .condition-desc,
+    .gift-with-purchase .terms-conditions,
+    .gift-with-purchase .cta-section,
+    .gift-with-purchase .form-content .form-field,
+    .gift-with-purchase .form-content .form-field-select{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .gift-with-purchase .form-content .form-field{
+        flex-direction: row;
+        align-items: center;
+    }
+}

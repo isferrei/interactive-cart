@@ -1,0 +1,112 @@
+.moto-blog-post-content {
+  background: #001428;
+  padding-top: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #334353;
+  width: 100%;
+}
+
+.moto-blog-post-content p {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  padding-bottom: 36px;
+  text-align: justify;
+}
+
+.moto-blog-post-content * {
+  color: #ffffff;
+}
+
+.moto-blog-post-content h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  padding-bottom: 36px;
+}
+
+.moto-blog-post-content .moto-blog-post-image-container {
+  padding-bottom: 36px;
+}
+
+.moto-blog-post-content .post-content-image {
+  width: 100%;
+  height: 100%;
+}
+
+.moto-blog-post-content
+  .moto-blog-post-image-container
+  .moto-blog-post-image-section:nth-child(1) {
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .moto-blog-post-content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .moto-blog-post-content h3 {
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  .moto-blog-post-content
+    .moto-blog-post-image-container
+    .moto-blog-post-image-section:nth-child(1) {
+    margin-right: 9px;
+    margin-bottom: 0;
+  }
+
+  .moto-blog-post-content
+    .moto-blog-post-image-container
+    .moto-blog-post-image-section:nth-child(2) {
+    margin-left: 9px;
+  }
+
+  .moto-blog-post-content
+    .moto-blog-post-image-container
+    .moto-blog-post-image-section {
+    width: 48.5%;
+    height: 29.5vw;
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .moto-blog-post-content {
+    padding-top: 48px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 36px;
+  }
+
+  .moto-blog-post-content
+    .moto-blog-post-image-container
+    .moto-blog-post-image-section {
+    width: 48.5%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .moto-blog-post-content {
+    padding-top: 48px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 36px;
+  }
+
+  .moto-blog-post-content
+    .moto-blog-post-image-container
+    .moto-blog-post-image-section {
+    width: 49%;
+  }
+}

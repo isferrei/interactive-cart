@@ -1,0 +1,136 @@
+.gallery-software-wrapper {
+  display: flex;
+  padding: 64px 16px;
+  justify-content: center;
+  background-color: #000a13;
+
+  position: relative;
+}
+
+.gallery-software-background-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.gallery-software-container {
+  max-width: 1280px;
+  color: white;
+
+  z-index: 9;
+}
+
+.gallery-info {
+  text-align: center;
+}
+
+.gallery-info, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-info > h4 {
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+.gallery-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.gallery-buttons-wrapper {
+  width: 100%;
+  max-width: 680px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+.gallery-button {
+  cursor: pointer;
+  color: white;
+  padding: 0px 16px;
+  height: 36px;
+  border-radius: 18px;
+  border: 1px solid #FFFFFF80;
+  background-color: transparent;
+}
+
+.button-active {
+  background-color: #FFFFFF80;
+  border: 1px solid #FFFFFF;
+}
+
+.gallery-image-wrapper {
+  width: 100%;
+  margin-top: 38px;
+  margin-bottom: 24px;
+  width: 720px;
+  max-width: 85vw;
+
+  min-height: 360px;
+}
+
+#video-gallery-software > div {
+  text-align: center;
+}
+
+.gallery-image-wrapper > iframe {
+  max-width: 85vw;
+}
+
+.gallery-image-wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gallery-bottom-content {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.gallery-bottom-content > h5 {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.gallery-bottom-content > p {
+  font-size: 14px;
+}
+
+@media (max-width: 760px) {
+  .gallery-image-wrapper {
+    min-height: 100px;
+  }
+
+  .gallery-info > h4 {
+    font-size: 32px;
+  }
+
+  .gallery-details-container {
+    flex-direction: column-reverse;
+  }
+
+  .gallery-buttons-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery-image-wrapper  {
+    max-height: 320px;
+  }
+
+  .gallery-image-wrapper > div {
+    height: 100% !important;
+  }
+}

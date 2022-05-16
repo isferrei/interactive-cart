@@ -1,0 +1,67 @@
+query Products(
+  $category: String
+  $collection: String
+  $specificationFilters: [String]
+  $orderBy: String
+  $from: Int
+  $to: Int
+) {
+  products(
+    category: $category
+    collection: $collection
+    specificationFilters: $specificationFilters
+    orderBy: $orderBy
+    from: $from
+    to: $to
+  ) {
+    cacheId
+    productId
+    productName
+    description
+    categories
+    specificationGroups {
+      name
+      specifications {
+        name
+        values
+      }
+    }
+    categoryTree {
+      name
+      href
+    }
+    link
+    linkText
+    brand
+    items {
+      name
+      itemId
+      referenceId {
+        Value
+      }
+      images {
+        imageUrl
+        imageTag
+      }
+      sellers {
+        sellerId
+        commertialOffer {
+          Installments {
+            Value
+            InterestRate
+            TotalValuePlusInterestRate
+            NumberOfInstallments
+            Name
+          }
+          AvailableQuantity
+          Price
+          ListPrice
+        }
+      }
+    }
+    productClusters {
+      id
+      name
+    }
+  }
+}

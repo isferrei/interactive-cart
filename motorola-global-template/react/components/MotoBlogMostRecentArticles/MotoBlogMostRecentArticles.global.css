@@ -1,0 +1,212 @@
+.moto-blog-most-recent-articles {
+  background: #001428;
+  position: relative;
+  color: #FFFFFF;
+  overflow: hidden;
+  padding: 24px 16px;
+}
+.moto-blog-most-recent-articles .mbmra-heading {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0;
+  text-align: left;
+}
+.moto-blog-most-recent-articles .mbmra-items-list {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0px;
+}
+.moto-blog-most-recent-articles .mbmra-items-list .mbmra-category {
+  display: none;
+}
+.moto-blog-most-recent-articles .mbmra-items-list .mbmra-headline {
+  letter-spacing: 0px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+}
+.moto-blog-most-recent-articles .mbmra-items-list .mbmra-items {
+  background: #000000;
+  margin: 8px 0;
+  width: 100%;
+  overflow: hidden;
+}
+.moto-blog-most-recent-articles .mbmra-items-list .mbmra-image {
+  width: 120px;
+  height: 128px;
+  float: left;
+}
+.moto-blog-most-recent-articles .mbmra-items-list .mbmra-image img {
+  width: 100%;
+  height: 100%;
+}
+.moto-blog-most-recent-articles .mbmra-items-list .mbmra-bottom {
+  padding: 16px;
+  overflow: hidden;
+}
+.moto-blog-most-recent-articles .mbmra-items-list .mbmra-date-published {
+  color: #7F7F7F;
+  text-align: left;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: left;
+  margin-top: 16px;
+}
+.moto-blog-most-recent-articles .mbmra-items-list a, .moto-blog-most-recent-articles .mbmra-items-list a:hover, .moto-blog-most-recent-articles .mbmra-items-list a:active {
+  text-decoration: none;
+  color: #FFFFFF
+}
+.moto-blog-most-recent-articles .mbmra-cta-see-all .cta {
+  padding: 0px;
+}
+.moto-blog-most-recent-articles .mbmra-cta-see-all a {
+  background: #CF4039;
+  color: #FFFFFF;
+  border-radius: 28px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  letter-spacing: 0px;
+  font-weight: 300;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 19px;
+}
+.moto-blog-most-recent-articles .no-link {
+  cursor: auto;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  .moto-blog-most-recent-articles .mbmra-container {
+    max-width: 736px;
+    margin: 0 auto;
+  }
+  .moto-blog-most-recent-articles .mbmra-heading {
+    font-size: 24px;
+    line-height: 29px;
+    padding: 0;
+  }
+  .moto-blog-most-recent-articles .mbmra-items-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px 0px;
+  }
+  .moto-blog-most-recent-articles .mbmra-items-list .mbmra-image {
+    width: 100%;
+    height: 100%;
+    float: none;
+  }
+  .moto-blog-most-recent-articles .mbmra-items-list .mbmra-image img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .moto-blog-most-recent-articles .mbmra-items-list .mbmra-category {
+    display: block;
+    text-align: left;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: normal;
+  }
+  .moto-blog-most-recent-articles .mbmra-items-list .mbmra-category .cta a {
+    border: 1px solid;
+    border-radius: 16px;
+    padding: 9px 12px;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: normal;
+    color: #FFFFFF;
+  }
+  .moto-blog-most-recent-articles .mbmra-items-list .mbmra-headline {
+    letter-spacing: 0px;
+    font-size: 21px;
+    line-height: 32px;
+    margin-top: 16px;
+    margin-bottom: 21px;
+  }
+  .moto-blog-most-recent-articles .mbmra-items-list .mbmra-date-published {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 0;
+  }
+  .moto-blog-most-recent-articles .mbmra-items-list .mbmra-items {
+    position: relative;
+    width: 353px;
+    height: 420px;
+    margin: 12px 2% 12px 0;
+    background: none;
+  }
+  .moto-blog-most-recent-articles .mbmra-items-list .mbmra-bottom {
+    padding: 24px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    opacity: 0.93;
+    background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+    height: 100%;
+    width: 100%;
+  }
+  .moto-blog-most-recent-articles .mbmra-cta-see-all a {
+    width: 266px;
+    font-size: 21px;
+    line-height: 25px;    
+  }
+}
+
+/* tablet ipad pro */
+@media (min-width: 1024px) {
+  .moto-blog-most-recent-articles .mbmra-container {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  .moto-blog-most-recent-articles {
+    padding: 24px 40px;
+  }
+  .moto-blog-most-recent-articles .mbmra-items-list .mbmra-items {
+    width: 453px;
+    margin-right: 2%;
+  }
+}
+
+/* desktop */
+@media (min-width: 1200px) {
+  .moto-blog-most-recent-articles {
+    padding: 42px 0;
+  }
+  .moto-blog-most-recent-articles .mbmra-container {
+    margin: 0 5%;
+    max-width: none;
+  }
+  .moto-blog-most-recent-articles .mbmra-heading {
+    padding: 0px;
+  }
+  .moto-blog-most-recent-articles .mbmra-items-list .mbmra-image {
+    width: 100%;
+    height: 100%;
+  }
+  .moto-blog-most-recent-articles .mbmra-items-list .mbmra-items {
+    width: 379px;
+    margin-right: 2%;
+  }
+  .moto-blog-most-recent-articles .mbmra-cta-see-all {
+    margin-top: 21px;
+  }
+  .moto-blog-most-recent-articles .mbmra-cta-see-all a {
+    width: 234px;
+  }
+  .moto-blog-most-recent-articles .mbmra-items-list .mbmra-headline {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}

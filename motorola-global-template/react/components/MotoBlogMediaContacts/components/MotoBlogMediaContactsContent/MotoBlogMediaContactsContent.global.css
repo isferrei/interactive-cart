@@ -1,0 +1,71 @@
+.moto-blog-media-contacts-content {
+  background: #001428;
+  padding-top: 24px;
+  padding-left: 16px;
+  padding-right: 64px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #334353;
+  width: 100%;
+  color: #ffffff;
+}
+.mbmc-content-wrapper {
+  padding-bottom: 32px;
+}
+.mbmc-content-wrapper .mbmc-content-header {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+  text-align: left;
+  padding-bottom: 16px;
+}
+.mbmc-contact-section {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 300;
+  padding-bottom: 25px;
+}
+.mbmc-content-wrapper:last-child,
+.mbmc-contact-section:last-child {
+  padding-bottom: 0;
+}
+.mbmc-contact-email {
+  text-decoration: underline;
+}
+@media screen and (min-width: 768px) {
+  .moto-blog-media-contacts-content {
+    padding-bottom: 54px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .moto-blog-media-contacts-content {
+    background: #001428;
+    padding-top: 48px;
+    padding-left: 82px;
+    padding-right: 16px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #334353;
+    width: 100%;
+    color: #ffffff;
+  }
+  .mbmc-content-wrapper .mbmc-content-header {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 300;
+    text-align: left;
+    padding-bottom: 32px;
+  }
+  .mbmc-contact-section {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    padding-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .moto-blog-media-contacts-content {
+    padding-left: 80px;
+    padding-bottom: 36px;
+  }
+}

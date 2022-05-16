@@ -1,0 +1,142 @@
+.pdp-google {
+  width: 100vw;
+  height: auto;
+  background: #111e31 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  max-width: 100%;
+  padding: 40px 0 60px 0;
+}
+.pg-upSection,
+.pg-downSection {
+  width: 100%;
+  position: relative;
+}
+.pg-upSection {
+  padding-bottom: 40px;
+}
+
+.pg-upContent,
+.pg-downContent {
+  text-align: center;
+  padding: 0 20px;
+}
+.pg-upContent h2,
+.pg-downContent h2 {
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: lighter;
+}
+.pg-upContent p,
+.pg-downContent p {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: lighter;
+}
+.pg-upContent img,
+.pg-downContent img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .pdp-google {
+    width: 100vw;
+    height: auto;
+    background: #111e31 0% 0% no-repeat padding-box;
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  .pg-upSection,
+  .pg-downSection {
+    width: 100%;
+    position: relative;
+  }
+  .pg-upContent {
+    position: absolute;
+    z-index: 9;
+    left: 35%;
+    width: 60%;
+    top: 61%;
+    text-align: left;
+  }
+  .pg-downContent {
+    position: absolute;
+    z-index: 11;
+    right: 34%;
+    width: 50%;
+    top: 34%;
+    text-align: right;
+  }
+  .pg-upSection,
+  .pg-downSection {
+    padding: 0;
+  }
+  .pg-upContent h2,
+  .pg-downContent h2 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .pg-upContent p,
+  .pg-downContent p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .pdp-google {
+    width: 100vw;
+    background: #111e31 0% 0% no-repeat padding-box;
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  .pg-upSection,
+  .pg-downSection {
+    width: 100%;
+    position: relative;
+  }
+  .pg-upContent {
+    position: absolute;
+    z-index: 9;
+    left: 35%;
+    width: 50%;
+    top: 63%;
+  }
+  .pg-downContent {
+    position: absolute;
+    z-index: 11;
+    right: 34%;
+    width: 50%;
+    top: 35%;
+    text-align: right;
+  }
+  .pg-upSection,
+  .pg-downSection {
+    padding: 0;
+  }
+  .pg-upContent h2,
+  .pg-downContent h2 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .pg-upContent p,
+  .pg-downContent p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

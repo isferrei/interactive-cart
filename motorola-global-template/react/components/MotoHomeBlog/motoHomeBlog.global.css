@@ -1,0 +1,210 @@
+.moto-home-blog-wrapper {
+  background-color: #001428;
+}
+.moto-home-blog-wrapper .no-link {
+  cursor: auto;
+}
+.moto-home-blog-wrapper .mhb-left-section,
+.moto-home-blog-wrapper .mhb-right-first-section,
+.moto-home-blog-wrapper .mhb-right-second-section {
+  position: relative;
+  color: #ffffff;
+}
+.moto-home-blog-wrapper .mhb-left-content-section,
+.moto-home-blog-wrapper .mhb-right-first-content-section,
+.moto-home-blog-wrapper .mhb-right-second-content-section {
+  position: absolute;
+  bottom: 0;
+  padding-left: 16px;
+  padding-right: 31px;
+  padding-bottom: 16px;
+}
+.mhb-left-section-body {
+  font-size: 21px;
+  font-weight: 300;
+}
+.mhb-left-section-date-published,
+.mhb-right-section-date-published {
+  font-size: 12px;
+  font-weight: 700;
+  color: #7f7f7f;
+  cursor: auto !important;
+}
+.mhb-right-section-body {
+  font-size: 18px;
+  font-weight: 300;
+}
+.mhb-right-section-cta,
+.mhb-left-section-cta {
+  display: none;
+}
+.mhb-left-section,
+.mhb-right-first-section,
+.mhb-right-second-section {
+  margin-bottom: 16px;
+}
+.mhb-right-section-date-published,
+.mhb-left-section-date-published {
+  padding-top: 16px;
+}
+.mhb-left-content-wrapper,
+.mhb-right-content-wrapper {
+  height: 60%;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0%
+    0% no-repeat padding-box;
+  opacity: 0.93;
+}
+.mhb-left-section a, .mhb-left-section a:active, .mhb-left-section a:hover,
+.mhb-right-first-section a, .mhb-right-first-section a:active, .mhb-right-first-section a:hover,
+.mhb-right-second-section a, .mhb-right-second-section a:active, .mhb-right-second-section a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+@media screen and (max-width: 767px) {
+  .moto-home-blog-wrapper{
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .mhb-right-second-section {
+    margin-bottom: 0px;
+  }
+  .moto-home-blog-wrapper img {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .moto-home-blog-wrapper .mhb-right-sections {
+    display: flex;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .moto-home-blog-wrapper {
+    padding-top: 16px;
+  }
+  .moto-home-blog-wrapper .col-md-7 {
+    padding-bottom: 0;
+  }
+  .moto-home-blog-wrapper .mhb-left-content-section {
+    bottom: 5%;
+    padding-left: 24px;
+  }
+  .moto-home-blog-wrapper .mhb-right-first-content-section,
+  .moto-home-blog-wrapper .mhb-right-second-content-section {
+    position: absolute;
+    bottom: 5%;
+    padding-left: 24px;
+  }
+  .mhb-right-first-section {
+    margin-right: 16px;
+  }
+  .mhb-right-first-section,
+  .mhb-right-second-section {
+    width: 50%;
+  }
+  .mhb-right-section-cta,
+  .mhb-left-section-cta {
+    display: flex;
+  }
+  .moto-home-blog-wrapper .cta {
+    padding-right: 12px;
+    padding-bottom: 16px;
+  }
+  .moto-home-blog-wrapper .cta:last-child {
+    padding-right: 0px;
+  }
+  .moto-home-blog-wrapper .cta a {
+    padding: 4px 15px;
+    font-weight: 700;
+    font-size: 12px;
+    display: block;
+    width: fit-content;
+    height: 32px;
+  }
+  .mhb-left-section {
+    margin-bottom: 16px;
+  }
+  .mhb-left-section img,
+  .mhb-right-sections img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .moto-home-blog-wrapper {
+    padding-top: 32px;
+  }
+  .moto-home-blog-wrapper .mhb-inner-sections {
+    display: flex;
+    text-align: left;
+    margin: 0 5%;
+  }
+  .moto-home-blog-wrapper .mhb-left-content-section {
+    bottom: 0;
+    padding-left: 24px;
+    padding-bottom: 24px;
+  }
+  .moto-home-blog-wrapper .mhb-right-first-content-section,
+  .moto-home-blog-wrapper .mhb-right-second-content-section {
+    position: absolute;
+    bottom: 0;
+    padding-left: 24px;
+    padding-bottom: 24px;
+  }
+  .mhb-left-section,
+  .mhb-right-sections {
+    margin-bottom: 16px;
+  }
+  .mhb-right-second-section {
+    margin-bottom: 0px;
+  }
+  .moto-home-blog-wrapper .mhb-left-section-body,
+  .moto-home-blog-wrapper .mhb-right-section-body {
+    font-size: 21px;
+    font-weight: 300;
+    max-width: 296px;
+  }
+  .mhb-left-section-date-published,
+  .mhb-right-section-date-published {
+    font-size: 14px;
+    font-weight: 700;
+    color: #7f7f7f;
+  }
+  .mhb-right-first-section {
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-bottom: 17px;
+  }
+  .moto-home-blog-wrapper .mhb-left-inner-section {
+    margin-right: -8px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .moto-home-blog-wrapper .mhb-right-inner-section {
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+  .mhb-inner-sections img {
+    width: 100%;
+  }
+  .mhb-right-section-cta,
+  .mhb-left-section-cta {
+    display: flex;
+  }
+  .moto-home-blog-wrapper .cta {
+    padding-right: 12px;
+    padding-bottom: 16px;
+  }
+  .moto-home-blog-wrapper .cta:last-child {
+    padding-right: 0px;
+  }
+  .moto-home-blog-wrapper .cta a {
+    padding: 4px 15px;
+    font-weight: 500;
+    font-size: 12px;
+    display: block;
+    width: fit-content;
+    height: 32px;
+  }
+}

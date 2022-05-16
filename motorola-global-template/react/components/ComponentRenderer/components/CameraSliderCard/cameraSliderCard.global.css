@@ -1,0 +1,312 @@
+.camera-slider {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  color: #ffffff;
+  background-color: #001428;
+}
+
+.cs-tab-content {
+  opacity: 0.75;
+  width: 100%;
+  padding: 20px 30px 22px 20px;
+  color: #fff;
+  min-height: 135px;
+}
+.cs-tab-content p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  margin: 0;
+}
+
+.cs-content-box-headline {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.cs-desktop-images,
+.cs-mobile-images,
+.tablet-section-image {
+  position: relative;
+}
+
+/* Tab content CSS */
+.cs-tab-container {
+  position: absolute;
+  bottom: 0;
+  width: 600px;
+  z-index: 9;
+}
+
+.cs-tab-container.position-right {
+  right: 0;
+}
+.cs-tab-container.position-lower-center {
+  left: calc((100% - 585px) / 2);
+}
+
+.cs-mobile-images {
+  display: none;
+}
+
+/* Input range CSS */
+input.cs-input-range {
+  -webkit-appearance: none;
+  margin: 18px 0 10px 0;
+  padding: 18px 0 10px 0;
+  width: 100%;
+  background: none;
+}
+input.cs-input-range:focus {
+  outline: none;
+}
+input.cs-input-range::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 4px;
+  cursor: pointer;
+  background-color: #fcfcfc;
+}
+input.cs-input-range::-webkit-slider-thumb {
+  border: 4px solid #000;
+  height: 26px;
+  width: 26px;
+  border-radius: 15px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -12px;
+}
+
+@media screen and (max-width: 767px) {
+  .cs-mobile-images {
+    display: block;
+  }
+  .cs-mobile-images img {
+    height: calc(100vh - -55px);
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .cs-tab-container {
+    width: 100%;
+  }
+  .cs-tab-container.position-lower-center {
+    left: 0;
+  }
+  .content-box-range {
+    display: none;
+  }
+  .cs-input-range {
+    display: none;
+  }
+  .camera-slider-card-wrapper {
+    height: auto;
+  }
+  /* for mobile stacked toggle view */
+
+  .cs-tab-container > .cs-tab-content > .cs-content-box-headline {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .cs-desktop-images img {
+    margin-top: 55px;
+    height: calc(100vh - 60px);
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+}
+
+/* Stacked View Css */
+.cs-mobile-stacked-container {
+  position: relative;
+  width: 100%;
+  background-color: #000;
+  overflow: hidden;
+}
+.cs-stacked-images {
+  max-width: 375px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.cs-mobile-stacked-container img {
+  /* position: absolute; */
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.cs-mobile-stacked-container img:last-child {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: auto;
+  left: 0;
+  top: 0;
+}
+
+.cs-stacked-container {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+}
+input.cs-stacked-input-range {
+  -webkit-appearance: none;
+  padding: 0;
+  width: 100%;
+  background: transparent;
+  position: absolute;
+  z-index: 3;
+}
+input.cs-stacked-input-range:focus {
+  outline: none;
+}
+input.cs-stacked-input-range::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 1px;
+  cursor: pointer;
+  background-color: #fcfcfc;
+}
+input.cs-stacked-input-range::-webkit-slider-thumb {
+  height: 8px;
+  width: 20px;
+  border-radius: 4px;
+  margin-top: -12px;
+}
+.cs-stacked-content {
+  padding: 20px;
+  color: #fff;
+}
+.cs-stacked-content .cs-content-box-headline {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 24px;
+}
+.cs-stacked-content p {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 300;
+}
+
+/* Mobile / Desktop various images positions */
+.cs-mobile-images,
+.cs-desktop-images {
+  height: 100vh;
+}
+.cs-mobile-images > img,
+.cs-desktop-images > img {
+  max-width: max-content;
+  max-height: max-content;
+  position: absolute;
+  z-index: 4;
+  min-height: 100%;
+  min-width: 100%;
+  height: auto;
+  width: auto;
+}
+.cs-mobile-images > img:last-child,
+.cs-desktop-images > img:last-child {
+  position: absolute;
+  z-index: 5;
+  min-height: 100%;
+  min-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+.cs-mobile-images.top-left-mobile > img,
+.cs-desktop-images.top-left-desktop > img {
+  left: 0;
+  top: 0;
+  min-width: 100%;
+}
+
+.cs-mobile-images.top-right-mobile img,
+.cs-desktop-images.top-right-desktop img {
+  top: 0;
+  right: 0;
+  min-width: 100%;
+}
+
+.cs-mobile-images.top-center-mobile,
+.cs-desktop-images.top-center-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cs-mobile-images.top-center-mobile > img,
+.cs-desktop-images.top-center-desktop > img {
+  top: 0;
+  object-fit: cover;
+}
+
+.cs-mobile-images.bottom-center-mobile > img,
+.cs-desktop-images.bottom-center-desktop > img {
+  bottom: 0;
+  object-fit: cover;
+}
+
+.cs-mobile-images.middle-center-mobile,
+.cs-mobile-images.middle-left-mobile,
+.cs-mobile-images.middle-right-mobile,
+.cs-desktop-images.middle-center-desktop,
+.cs-desktop-images.middle-left-desktop,
+.cs-desktop-images.middle-right-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.cs-mobile-images.bottom-left-mobile > img,
+.cs-desktop-images.bottom-left-desktop > img {
+  left: 0;
+  bottom: 0;
+  min-width: 100%;
+}
+
+.cs-mobile-images.bottom-right-mobile > img,
+.cs-desktop-images.bottom-right-desktop img {
+  bottom: 0;
+  right: 0;
+  min-width: 100%;
+}
+
+.cs-mobile-images.bottom-center-mobile,
+.cs-desktop-images.bottom-center-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cs-mobile-images.middle-left-mobile > img,
+.cs-desktop-images.middle-left-desktop > img {
+  left: 0;
+  min-width: 100%;
+}
+
+.cs-mobile-images.middle-right-mobile > img,
+.cs-desktop-images.middle-right-desktop > img {
+  right: 0;
+  min-width: 100%;
+}
+
+.camera-slider-lazyload-default-img {
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}

@@ -1,0 +1,193 @@
+.motorola-quiz-response-page {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.motorola-quiz-response-page .mqrp-text-container {
+  text-align: center;
+}
+.motorola-quiz-response-page
+  .mqrp-text-container
+  .mqrp-text-wrapper
+  .mqrp-header-text {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-bottom: 32px;
+}
+.motorola-quiz-response-page
+  .mqrp-text-container
+  .mqrp-text-wrapper
+  .mqrp-product-logo
+  img {
+  width: auto;
+  height: 32px;
+  padding-bottom: 24px;
+}
+.motorola-quiz-response-page
+  .mqrp-text-container
+  .mqrp-text-wrapper
+  .mqrp-content {
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0 10px;
+}
+.motorola-quiz-response-page .mqrp-text-container .mqrp-text-wrapper .mqrp-cta {
+  width: 320px;
+  border: 1px solid #ffffff;
+  border-radius: 36px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  padding: 19px 0;
+  margin: 36px auto;
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+}
+.motorola-quiz-response-page
+  .mqrp-text-container
+  .mqrp-share-wrapper
+  .mqrp-share-social-icons {
+  display: inline-block;
+  padding-right: 48px;
+  cursor: pointer;
+}
+.motorola-quiz-response-page
+  .mqrp-text-container
+  .mqrp-share-wrapper
+  .mqrp-share-social-icons:last-child {
+  padding-right: 0px;
+}
+.motorola-quiz-response-page
+  .mqrp-text-container
+  .mqrp-share-wrapper
+  .mqrp-share-title {
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .motorola-quiz-response-page
+    .mqrp-text-container
+    .mqrp-text-wrapper
+    .mqrp-header-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .motorola-quiz-response-page
+    .mqrp-text-container
+    .mqrp-text-wrapper
+    .mqrp-product-logo
+    img {
+    padding-bottom: 24px;
+  }
+  .motorola-quiz-response-page
+    .mqrp-text-container
+    .mqrp-text-wrapper
+    .mqrp-cta {
+    width: 343px;
+    margin: 36px auto 80px auto;
+  }
+  .motorola-quiz-response-page
+    .mqrp-text-wrapper
+    .mqrp-content {
+    padding: 0 70px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .motorola-quiz-response-page {
+    flex-direction: row-reverse;
+  }
+  .motorola-quiz-response-page .mqrp-image-container {
+    flex: 48%;
+  }
+  .motorola-quiz-response-page .mqrp-text-container {
+    flex: 52%;
+    position: relative;
+    padding-left: 10%;
+    text-align: left;
+  }
+  .motorola-quiz-response-page .mqrp-text-container .mqrp-text-wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-65%) !important;
+  }
+  .motorola-quiz-response-page
+    .mqrp-text-container
+    .mqrp-text-wrapper
+    .mqrp-header-text {
+    padding-bottom: 40px;
+  }
+  .motorola-quiz-response-page
+    .mqrp-text-container
+    .mqrp-text-wrapper
+    .mqrp-product-logo
+    img {
+    height: 48px;
+    padding-bottom: 40px;
+  }
+  .motorola-quiz-response-page
+    .mqrp-text-container
+    .mqrp-text-wrapper
+    .mqrp-content {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0;
+  }
+  .motorola-quiz-response-page .mqrp-text-container .mqrp-share-wrapper {
+    position: absolute;
+    bottom: 13%;
+  }
+  .motorola-quiz-response-page
+    .mqrp-text-container
+    .mqrp-text-wrapper
+    .mqrp-cta {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 18px 32px;
+    margin: 40px 0 0 0;
+    width: 320px;
+  }
+  .motorola-quiz-response-page
+    .mqrp-text-container
+    .mqrp-share-wrapper
+    .mqrp-share-title {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .motorola-quiz-response-page
+    .mqrp-text-container
+    .mqrp-text-wrapper
+    .mqrp-cta {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 50px 0 0 0;
+  }
+  .motorola-quiz-response-page
+    .mqrp-text-container
+    .mqrp-share-wrapper
+    .mqrp-share-title,
+  .motorola-quiz-response-page
+    .mqrp-text-container
+    .mqrp-share-wrapper
+    .mqrp-share-icons-container,
+  .motorola-quiz-response-page
+    .mqrp-text-container
+    .mqrp-share-wrapper
+    .mqrp-share-social-icons {
+    display: inline-block;
+  }
+  .motorola-quiz-response-page
+    .mqrp-text-container
+    .mqrp-share-wrapper
+    .mqrp-share-title {
+    padding-right: 24px;
+    line-height: 24px;
+    vertical-align: super;
+  }
+  .motorola-quiz-response-page .mqrp-text-container .mqrp-text-wrapper {
+    transform: translateY(-70%);
+  }
+}

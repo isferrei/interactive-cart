@@ -1,0 +1,137 @@
+.camera-selfie {  
+  position: relative;
+  overflow: hidden;
+  background: #00111D;
+}
+.camera-selfie div {
+  line-height: 0px;
+}
+.camera-selfie .cs-content-wrapper h3 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 19px;
+  margin: 0 0 16px 0;
+}
+.camera-selfie .cs-content-wrapper h6 {
+  color: #ffffff;  
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 16px;  
+  margin: 0;
+}
+.camera-selfie .cs-items-video {
+  width: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+.camera-selfie .cs-react-player-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.camera-selfie .cs-items-video .cs-items-video-player {
+  position: relative;
+  padding-bottom: 56.25%;  /* 16:9 */
+  height: 0;
+  overflow: hidden;
+}
+.camera-selfie .cs-items-video .cs-items-video-player iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.camera-selfie .cs-items-wrapper {
+  position: relative;
+}
+.camera-selfie .cs-content-image .cs-content-box {
+  padding: 47px 60px;
+  text-align: center;
+  background: #111E31;
+}
+.camera-selfie .cs-content-video .cs-content-box {
+  padding: 30px 65px;
+  text-align: center;
+  background: #111E31;
+}
+/* tablet */
+@media (min-width: 768px) {
+  .camera-selfie .cs-content-wrapper h3 {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: lighter;
+    margin: 27px 0;
+  }
+  .camera-selfie .cs-content-wrapper h6 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: lighter;
+  }
+  .camera-selfie .cs-content-wrapper {
+    position: absolute;
+    display: flex;
+    width: 100%; 
+  }
+  .camera-selfie .cs-content-image .cs-content-box {
+    width: 410px;
+    text-align: left;
+    background: none;
+  }
+  .camera-selfie .cs-align-right {
+    top: 0;
+    bottom: 0;
+    align-items: center;    
+    justify-content: flex-end;
+  }
+  .camera-selfie .cs-align-right .cs-content-box {    
+    margin-right: 20px;
+  }
+  .camera-selfie .cs-align-left {
+    top: 0;
+    bottom: 0;
+    align-items: center;    
+    justify-content: flex-start;
+  }
+  .camera-selfie .cs-align-left .cs-content-box {
+    margin-left: 20px;
+  }
+  .camera-selfie .cs-content-video .cs-content-box {
+    width: 550px;
+    text-align: center;
+    background: none;
+    padding: 15px 0px;
+  }
+  .camera-selfie .cs-align-bottom {
+    bottom: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+  .camera-selfie .cs-align-top {
+    top: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+/* desktop */
+@media (min-width: 1200px) {
+  .camera-selfie .cs-content-image .cs-content-box {
+    width:50%
+  }
+  .camera-selfie .cs-align-right .cs-content-box {    
+    margin-right: 20px;
+  }
+  .camera-selfie .cs-align-left .cs-content-box {
+    margin-left: 20px;
+  }
+  .camera-selfie .cs-content-video .cs-content-box {
+    padding: 30px 0px;
+  }
+  .camera-selfie .cs-align-bottom {
+    bottom: 90px;
+  }
+  .camera-selfie .cs-align-top {
+    top: 90px;
+  }
+}

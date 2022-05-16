@@ -1,0 +1,30 @@
+
+.cs-tab-panel {
+  display: flex;
+}
+.cs-tab-panel button {
+  font-size: 14px;
+  border: none;
+  display: inline-block;
+  width: 100%;
+  margin: 0 1px 1px 0;
+  height: 35px;
+  line-height: 17px;
+  color: #fff;
+  opacity: 0.45;
+  text-align: left;
+  padding: 0 10px 0 20px;
+}
+
+.cs-tab-panel button:last-child {
+  margin: 0 0 0 0;
+}
+.cs-tab-panel button.active {
+  font-weight: bold;
+  margin-bottom: 0;
+  height: 36px;
+  opacity: 0.75;
+}
+.cs-tab-panel button:focus {
+  outline: none;
+}

@@ -1,0 +1,161 @@
+.pdp-battery-fade-in-jack {
+    margin-bottom: -5px;
+    background-color: #111E31;
+    position: relative;
+}
+.pdp-battery-fade-in-jack #pbfij-section-battery {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+.pdp-battery-fade-in-jack .pbfij-bg-image-day,
+.pdp-battery-fade-in-jack .pbfij-bg-image-night {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.pdp-battery-fade-in-jack .pbfij-text-container {
+    top: 276px;
+    padding: 30px 35px 42px 35px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-align: center;
+}
+.pdp-battery-fade-in-jack .pbfij-title {
+    font-size: 18px;
+    line-height: 19px;
+    top: 276px;
+    font-weight: lighter;
+}
+.pdp-battery-fade-in-jack .pbfij-desc {
+    font-size: 14px;
+    line-height: 16px;
+    top: 308px;
+    font-weight: lighter;
+    padding-top: 13px;
+}
+@media screen and (orientation:landscape)
+    and (max-device-width: 991px) {
+        .pdp-battery-fade-in-jack .pbfij-text-container {
+            top: 60px;
+            position: absolute;
+            left: 20%;
+            right: 20%;
+            padding-top: 0px;
+            padding-bottom: 40px;
+        }
+}
+@media screen and (min-width: 768px) {
+    .pdp-battery-fade-in-jack .pbfij-title {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .pdp-battery-fade-in-jack .pbfij-desc {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .pdp-battery-fade-in-jack .pbfij-text-container {
+        top: 60px;
+        position: absolute;
+        left: 20%;
+        right: 20%;
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+    .pdp-battery-fade-in-jack .pbfij-title {
+        font-size: 24px;
+        line-height: 29px;
+        top: 60px;
+        font-weight: lighter;
+    }
+    .pdp-battery-fade-in-jack .pbfij-desc {
+        font-size: 16px;
+        line-height: 24px;
+        top: 185px;
+        padding-top: 25px;
+    }
+}
+@-moz-keyframes fadeInJack {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+}
+@-ms-keyframes fadeInJack {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@-o-keyframes fadeInJack {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@keyframes fadeInJack {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.pdp-battery-fade-in-jack .pbfij-section-two {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 5;
+    animation: fadeInJack 3s;
+    animation-timing-function: ease-in-out;
+    opacity: 0;
+}
+@-moz-keyframes fadeInJackEffect {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+@-ms-keyframes fadeInJackEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadeInJackEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeInJackEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.pdp-battery-fade-in-jack .pbfij-section-two.fade-in-jack-effect {
+    animation: fadeInJackEffect 3s;
+    animation-timing-function: ease-in-out;
+    opacity: 1;
+}

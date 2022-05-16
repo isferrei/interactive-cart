@@ -1,0 +1,99 @@
+.motoMainCarouselHome {
+  position: relative;
+  z-index: 10;
+}
+.motoMainCarouselHome .slick-dots {
+  bottom: 30%;
+  left: 0 !important;
+  position: absolute !important;
+  width: 100%;
+}
+
+.motoMainCarouselHome .slick-dots ul {
+  margin: 0 auto;
+}
+
+.motoMainCarouselHome .slick-dots ul li {
+  margin: 0;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .motoMainCarouselHome .slick-dots ul {
+    width: 46rem;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .motoMainCarouselHome .slick-dots ul {
+    width: 61rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .motoMainCarouselHome .slick-dots ul {
+    width: 1140px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .motoMainCarouselHome .slick-dots {
+    bottom: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .motoMainCarouselHome .slick-dots {
+    bottom: 15px;
+  }
+  .motoMainCarouselHome .slick-dots ul {
+    justify-content: center;
+  }
+}
+
+.motoMainCarouselHome .slick-dots ul {
+  display: flex;
+}
+
+.motoMainCarouselHome .slick-prev, .motoMainCarouselHome .slick-next {
+  z-index: 1000;
+}
+.motoMainCarouselHome .slick-prev:before, .motoMainCarouselHome .slick-next:before {
+  background: none !important;
+}
+
+.motoMainCarouselHome .slick-next, .motoMainCarouselHome .slick-prev {
+  background: rgba(0,0,0,0.4);
+  padding: 30px 15px;
+}
+
+.motoMainCarouselHome .slick-prev:before, .motoMainCarouselHome .slick-next:before {
+  border-width: 0px 5px 5px 0px;
+  border-color: white;
+  border-style: solid;
+  height: 8px !important;
+  width: 8px !important;
+  opacity: 1 !important;
+}
+.motoMainCarouselHome .slick-next:before {
+  transform: rotate(-45deg);
+}
+.motoMainCarouselHome .slick-prev:before {
+  transform: rotate(135deg);
+}
+.motoMainCarouselHome .slick-dots button:before {
+  color: white !important;
+  font-size: 12px !important;
+}
+
+@media (max-width: 991px) {
+  .motoMainCarouselHome .slick-prev, .motoMainCarouselHome .slick-next {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .motoMainCarouselHome .slick-dots {
+    bottom: 10px;
+  }
+}

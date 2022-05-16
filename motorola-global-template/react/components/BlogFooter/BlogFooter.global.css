@@ -1,0 +1,565 @@
+.blog-footer-wrapper {
+    background: #001428;
+}
+  
+.blog-footer-wrapper .logo {
+    background-image: url('./images/motorola_logo.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 36px;
+    width: 160px;
+    margin: 0 auto;
+    margin-top: 36px;
+}
+  
+.blog-footer-wrapper .Collapsible {
+    padding-left: 16px;
+    padding-right: 16px;
+    border-bottom: 1px solid #4D5B69;
+}
+
+.blog-footer-wrapper .Collapsible.active {
+    padding-bottom: 24px;
+}
+
+.blog-footer-wrapper .bf-col-heading {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.blog-footer-wrapper .bf-link-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.blog-footer-wrapper .bf-link-section .bf-link {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #BFBFC0;
+    text-decoration: none;
+}
+
+.blog-footer-wrapper .bf-link-section .bf-link:hover,
+.blog-footer-wrapper .bf-link-section .bf-link:active {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #BFBFC0;
+    text-decoration: none;
+}
+
+.blog-footer-wrapper .bf-sign-up-section {
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    width: auto;
+}
+
+.blog-footer-wrapper .bf-sign-up-section .bf-sign-up-label {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 300;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.blog-footer-wrapper .bf-sign-up-section input {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #001428;
+    border: 1px solid #4D5B69;
+}
+
+.blog-footer-wrapper .bf-sign-up-section button[disabled] {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+    width: 100%;
+    height: 48px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background: #6E6E6E;
+    color: #B7B7B7;
+    border: 1px solid #6E6E6E;
+    border-radius: 0;
+}
+
+.blog-footer-wrapper .bf-sign-up-section button {
+    background: #CF4039;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+    color: #FFFFFF;
+    border: 1px solid #CF4039;
+    width: 100%;
+    height: 48px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 0;
+}
+
+.blog-footer-wrapper .bf-sign-up-section button:focus {
+    outline: none;
+}
+
+.blog-footer-wrapper .bf-sign-up-section .vtex-input-prefix__group {
+    border: 0;
+}
+
+.blog-footer-wrapper .bf-sign-up-section .vtex-input-prefix__group span.flex {
+    margin-left: -4px;
+}
+
+.blog-footer-wrapper .bf-sign-up-section .vtex-input-prefix__group button {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+    width: 158px;
+    height: 48px;
+    border-radius: 0;
+}
+
+.bf-moto-list-items {
+    margin-top: 10px;
+}
+
+.blog-footer-wrapper .bf-sign-up-section .vtex-input-prefix__group,
+.blog-footer-wrapper .bf-sign-up-section .vtex-input-prefix__group .vtex-styleguide-9-x-input {
+    font-family: "Gotham A","Gotham B",'ruble';
+    border-radius:0;
+}
+
+.bf-footer-title .bf-col-heading::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid #fff;
+    text-align: right;
+    float: right;
+    transform: rotate(135deg);
+    transform-origin: 2px 6px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.bf-footer-title .is-disabled .bf-col-heading::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    text-align: right;
+    float: right;
+    transform: rotate(135deg);
+    transform-origin: 2px 6px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.bf-footer-title.active .bf-col-heading::after {
+    transform: rotate(-45deg);
+    top: 8px;
+    position: relative;
+}
+
+.blog-footer-wrapper {
+    border-top: 1px solid #4D5B69;
+}
+
+.blog-footer-wrapper a.privacy-link,
+.blog-footer-wrapper .copyright-text {
+    color: #BFBFC0;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.blog-footer-wrapper .bf-sign-up-section .vtex-input-prefix__group button[disabled] {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+    width: 148px;
+    height: 48px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background: #6E6E6E;
+    color: #B7B7B7;
+    border: 1px solid #6E6E6E;
+}
+
+.bg-disabled {
+    background-color: transparent;
+}
+
+.blog-footer-wrapper .bf-sign-up-section .vtex-input-prefix__group button {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+    width: 148px;
+    height: 48px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background: #CF4039;
+    color: #FFFFFF;
+    border: 1px solid #CF4039;
+}
+
+.blog-footer-wrapper .copyright-text {
+    text-align: center;
+}
+
+.blog-footer-wrapper a.privacy-link:hover,
+.blog-footer-wrapper a.privacy-link:active {
+    text-decoration: none;
+}
+
+.blog-footer-wrapper a.privacy-link:first-child {
+    padding-bottom: 16px;
+}
+
+.blog-footer-wrapper .tnc-copyright-section {
+    text-align: center;
+}
+
+.blog-footer-wrapper .tnc-copyright-section.mtop-50 {
+    margin-top: 48px;
+}
+
+.blog-footer-wrapper .tnc-copyright-section.mtop-16 {
+    margin-top: 16px;
+}
+
+.blog-footer-wrapper .tnc-copyright-section.mbtm-40 {
+    margin-bottom: 36px;
+}
+
+.blog-footer-separator {
+    display: none;
+}
+
+.blog-footer-wrapper .row {
+    margin-right: 0;
+}
+
+.blog-footer-wrapper .col-xs-12 {
+    padding-right: 0;
+}
+
+.bf-signup-check-cirle-icn {
+    background-image: url('./images/check-circle.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    height: 16px;
+    width: 16px;
+    margin: 0 auto;
+    display: inline-block;
+    opacity: 1;
+    top: 3px;
+    position: relative;
+    margin-right: 8px;
+}
+
+.bf-sign-up-success-msg,
+.bf-sign-up-error-msg,
+.vtex-input__error {
+    margin-top: .5rem;
+    text-align: left;
+    word-wrap: break-word;
+    font-family: "Gotham A","Gotham B",'ruble';
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+}
+
+.bf-sign-up-success-msg {
+    color: #CF4039;
+}
+
+.bf-sign-up-error-msg {
+    color: #ff4c4c;
+}
+
+.blog-footer-wrapper .bf-privacy-label {
+    color: #808A94;
+    font-family: "Gotham A","Gotham B",'ruble';
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0;
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    text-align: left;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.blog-footer-wrapper .bf-privacy-label input {
+    position: relative;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    margin-right: 25px;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
+
+/* On mouse-over, add a grey background color */
+/* When the checkbox is checked, add a blue background */
+.blog-footer-wrapper .bf-privacy-label:hover input ~ .checkmark {
+    background-color: transparent;
+}
+
+.blog-footer-wrapper .bf-privacy-label input:checked ~ .checkmark {
+    background-color: #FFFFFF;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.blog-footer-wrapper .bf-privacy-label input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.blog-footer-wrapper .bf-privacy-label .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 2px;
+    height: 7px;
+    border: solid #000000;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+
+.vtex-checkbox__container {
+    margin-top: 2px;
+}
+
+span.bf-privacy-link {
+    display: inline-block;
+    margin: 0 0 0 8px;
+}
+
+.blog-footer-wrapper .bf-sign-up-section .bf-signup-optin-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.blog-footer-wrapper .bf-sign-up-section .bf-privacy-label {
+    width: auto;
+}
+
+.blog-footer-wrapper .bf-sign-up-section .bf-btn-wrapper button {
+    border-radius: 0;
+}
+
+@media only screen and (min-width:768px) and (max-width: 768px) {
+    .blog-footer-wrapper .bf-sign-up-section {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .blog-footer-wrapper .bf-moto-logo-container {
+        height: 60px;
+        clear: both;
+    }
+}
+
+@media (min-width: 1025px) {
+    .blog-footer-wrapper .order-lg-md-last {
+        -webkit-box-ordinal-group: 100000;
+        order: 99999;
+    }
+
+    .blog-footer-separator {
+        color: #BFBFC0;
+        display: block;
+    }
+
+    .blog-footer-wrapper .tnc-copyright-section.mtop-50 {
+        margin-top: 0;
+        padding-left: 28px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1024px) and (orientation: landscape) {
+    .blog-footer-wrapper .bf-sign-up-section {
+        margin-top: 16px;
+    }
+
+    span.bf-privacy-link {
+        margin: 0;
+    }
+
+    .bf-privacy-label {
+        margin-top: 16px;
+    }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+    .blog-footer-wrapper .bf-sign-up-section button[disabled],
+    .blog-footer-wrapper .bf-sign-up-section button {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .blog-footer-wrapper .bf-sign-up-section .bf-privacy-label {
+        width: 375px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .blog-footer-wrapper {
+        padding-bottom: 48px;
+        padding-top: 64px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .blog-footer-wrapper .Collapsible {
+        border-bottom: none;
+    }
+
+    .blog-footer-wrapper .logo {
+        margin-top: 12px;
+        text-align: left;
+        margin-left: 14px;
+    }
+    .blog-footer-wrapper .bf-sign-up-section {
+        text-align: left;
+    }
+
+    .blog-footer-wrapper .bf-sign-up-section .bf-sign-up-label {
+        margin-top: 12px;
+    }
+
+    .blog-footer-wrapper .tnc-copyright-section.mtop-50 {
+        margin-top: 0;
+        padding-left: 28px;
+    }
+
+    .blog-footer-wrapper .tnc-copyright-section.mtop-16 {
+        margin-top: 0;
+    }
+
+    .blog-footer-wrapper .tnc-copyright-section.mbtm-40 {
+        margin-bottom: 0;
+    }
+
+    .blog-footer-wrapper .tnc-copyright-section {
+        text-align: left;
+    }
+
+    .blog-footer-wrapper .tnc-copyright-section:last-child {
+        justify-content: flex-end;
+    }
+
+    .blog-footer-wrapper .bf-sign-up-section button {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .blog-footer-wrapper .bf-sign-up-section button[disabled],
+    .blog-footer-wrapper .bf-sign-up-section button {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .blog-footer-wrapper .bf-sign-up-section {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .blog-footer-wrapper .bf-sign-up-section .vtex-input-prefix__group button {
+        width: 140px;
+    }
+
+    .blog-footer-wrapper .tnc-copyright-section {
+        display: inline-flex;
+    }
+
+    .blog-footer-separator {
+        color: #BFBFC0;
+        margin: 0 10px;
+        display: block;
+    }
+
+    .blog-footer-wrapper .Collapsible {
+        padding-left: 14px;
+        padding-right: 0;
+    }
+
+    .blog-footer-wrapper .Collapsible.active {
+        padding-bottom: 48px;
+    }
+
+    .bf-sign-up-success-msg,
+    .bf-sign-up-error-msg {
+        font-family: "Gotham A","Gotham B",'ruble';
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 300;
+        margin-top: .5rem;
+        word-wrap: break-word;
+    }
+
+    .bf-sign-up-success-msg,
+    .bf-sign-up-error-msg,
+    .vtex-input__error {
+        margin-bottom: .5rem;
+    }
+
+    .blog-footer-wrapper .bf-input-btn-wrapper {
+        display: inline-flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .blog-footer-wrapper .bf-btn-wrapper {
+        width: 148px;
+        margin-left: -10px;
+        top: -2px;
+        position: relative;
+    }
+
+    .blog-footer-wrapper .bf-sign-up-section .bf-btn-wrapper button {
+        margin-top: 1px;
+        margin-bottom: 0;
+    }
+}

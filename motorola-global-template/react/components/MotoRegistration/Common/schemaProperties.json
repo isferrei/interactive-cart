@@ -1,0 +1,371 @@
+{
+    "prefLanguage": {
+        "enum": [
+            "bg",
+            "da",
+            "de",
+            "nl",
+            "en",
+            "fr",
+            "it",
+            "pl",
+            "ro",
+            "ru",
+            "sr",
+            "sk",
+            "es",
+            "sv",
+            "zh",
+            "th",
+            "ja"
+        ],
+        "enumNames": [
+            "Bulgarian",
+            "Danish",
+            "Deutsch",
+            "Dutch",
+            "English",
+            "French",
+            "Italian",
+            "Polish",
+            "Romanian",
+            "Russian",
+            "Serbian",
+            "Slovak",
+            "Spanish",
+            "Swedish",
+            "Chinese",
+            "Thai",
+            "Japanese"
+        ],
+        "type": "string",
+        "title": "Preferred language",
+        "widget": {
+            "ui:widget": "select"
+        }
+    },
+    "webCampaign": {
+        "type": "string",
+        "title": "Web Campaign Name"
+    },
+    "billToCountry": {
+        "enum": [
+            "AU",
+            "BE",
+            "BG",
+            "CA",
+            "DK",
+            "FR",
+            "DE",
+            "GB",
+            "IN",
+            "IT",
+            "XM",
+            "NL",
+            "PL",
+            "XW",
+            "RO",
+            "RU",
+            "RS",
+            "SK",
+            "ES",
+            "SE",
+            "US",
+            "TH",
+            "TW",
+            "NZ",
+            "JP"
+        ],
+        "enumNames": [
+            "Australia",
+            "Belgium",
+            "Bulgaria",
+            "Canada",
+            "Denmark",
+            "France",
+            "Germany",
+            "Great Britain",
+            "India",
+            "Italy",
+            "Middle East and Africa",
+            "Netherlands",
+            "Poland",
+            "Rest of Europe",
+            "Romania",
+            "Russia",
+            "Serbia",
+            "Slovakia",
+            "Spain",
+            "Sweden",
+            "United States",
+            "Thailand",
+            "Taiwan",
+            "New Zealand",
+            "Japan"
+        ],
+        "type": "string",
+        "title": "Bill To Country",
+        "widget": {
+            "ui:widget": "select"
+        }
+    },
+    "logoImageUrl": {
+        "type": "string",
+        "title": "Logo Image Url"
+    },
+    "logoImageAltText": {
+        "type": "string",
+        "title": "Logo image alt text"  
+    },
+    "formBackgroundImageUrl": {
+        "type": "string",
+        "title": "Form Background Image Url"
+    },
+    "formBackgroundImageUrlTablet": {
+        "type": "string",
+        "title": "Form Background Image Url For Tablet"
+    },
+    "mobileImage": {
+        "type": "string",
+        "title": "Form Mobile Image Url"
+    },
+    "formBackgroundImageAltText": {
+        "type": "string",
+        "title": "Form background image alt text"  
+    },
+    "formDescription": {
+        "type": "string",
+        "title": "Form Description"
+    },
+    "firstName": {
+        "title": "First Name Field Configuration",
+        "type": "object",
+        "properties": {
+            "isMandatory": {
+                "type": "boolean",
+                "title": "Is First Name Mandatory",
+                "widget": {
+                    "ui:widget": "checkbox"
+                }
+            },
+            "placeholder": {
+                "type": "string",
+                "title": "First Name Placeholder"
+            },
+            "errorMessageMandatory": {
+                "type": "string",
+                "title": "First Name Is Mandatory Error Message"
+            },
+            "errorMessageTooLong": {
+                "type": "string",
+                "title": "First Name Too Long Error Message"
+            }
+        }
+    },
+    "lastName": {
+        "title": "Last Name Field Configuration",
+        "type": "object",
+        "properties": {
+            "isMandatory": {
+                "type": "boolean",
+                "title": "Is Last Name Mandatory",
+                "widget": {
+                    "ui:widget": "checkbox"
+                }
+            },
+            "placeholder": {
+                "type": "string",
+                "title": "Last Name Placeholder"
+            },
+            "errorMessageMandatory": {
+                "type": "string",
+                "title": "First Name Is Mandatory Error Message"
+            },
+            "errorMessageTooLong": {
+                "type": "string",
+                "title": "Last Name Too Long Error Message"
+            }
+        }
+    },
+    "email": {
+        "title": "Email Field Configuration",
+        "type": "object",
+        "properties": {
+            "placeholder": {
+                "type": "string",
+                "title": "Email Placeholder"
+            },
+            "errorMessageMandatory": {
+                "type": "string",
+                "title": "Email Is Mandatory Error Message"
+            },
+            "errorMessageIncorrect": {
+                "type": "string",
+                "title": "Incorrect Email Error Message"
+            },
+            "errorMessageTooLong": {
+                "type": "string",
+                "title": "Email Too Long Error Message"
+            }
+        }
+    },
+    "optIn": {
+        "title": "Opt-In Field Configuration",
+        "type": "object",
+        "properties": {
+            "labelMain": {
+                "type": "string",
+                "title": "Opt-In Main Label"
+            },
+            "labelYes": {
+                "type": "string",
+                "title": "Opt-In Yes Label"
+            },
+            "labelNo": {
+                "type": "string",
+                "title": "Opt-In No Label"
+            },
+            "defaultValue": {
+                "enum": ["", "Y", "N"],
+                "enumNames": ["None", "Yes", "No"],
+                "type": "string",
+                "title": "Opt-In Default Value",
+                "widget": {
+                    "ui:widget": "select"
+                }
+            },
+            "errorMessage": {
+                "type": "string",
+                "title": "Opt-In Error Message"
+            }
+        }
+    },
+    "ageCheck": {
+        "title": "Age Check Field Configuration",
+        "type": "object",
+        "properties": {
+            "isMandatory": {
+                "type": "boolean",
+                "title": "Is Age Check Mandatory",
+                "widget": {
+                    "ui:widget": "checkbox"
+                }
+            },
+            "label": {
+                "type": "string",
+                "title": "Age Check Label"
+            },
+            "defaultValue": {
+                "type": "boolean",
+                "title": "Age Check Confirmed By Default",
+                "widget": {
+                    "ut:widget": "checkbox"
+                }
+            },
+            "errorMessage": {
+                "type": "string",
+                "title": "Age Check Error Message"
+            }
+        }
+    },
+    "disclaimer": {
+        "type": "string",
+        "title": "Disclaimer"
+    },
+    "ctaButton": {
+        "title": "CTA Button Configuration",
+        "type": "object",
+        "properties": {
+            "mainLabel": {
+                "type": "string",
+                "title": "Register Button Label"
+            },
+            "color": {
+                "type": "string",
+                "title": "CTA Button Text Color"
+            },
+            "bgColorHover": {
+                "type": "string",
+                "title": "CTA Button Background Hover Color"
+            },
+            "borderColor": {
+                "type": "string",
+                "title": "CTA Button Border Color"
+            },
+            "borderColorHover": {
+                "type": "string",
+                "title": "CTA Button Border Hover Color"
+            }
+        }
+    },
+    "disclaimerSummary": {
+        "title": "Disclaimer Summary Configuration",
+        "type": "object",
+        "properties": {
+            "label": {
+                "type": "string",
+                "title": "Disclaimer Label"
+            },
+            "urlLink": {
+                "type": "string",
+                "title": "Anchor href"
+            },
+            "urlText": {
+                "type": "string",
+                "title": "URL Link Text"
+            }
+        }
+    },
+    "thankYou": {
+        "title": "Thank You Page Configuration",
+        "type": "object",
+        "properties": {
+            "backgoundImageUrl": {
+                "type": "string",
+                "title": "Thanks Background Image Url"
+            },
+            "header": {
+                "type": "string",
+                "title": "Thanks Header"
+            },
+            "subHeaderFirstRow": {
+                "type": "string",
+                "title": "Thanks Sub Header First Row"
+            },
+            "subHeaderSecondRow": {
+                "type": "string",
+                "title": "Thanks Sub Header Second Row"
+            }
+        }
+    },
+    "thankYouButton": {
+        "title": "ThankYou Button Configuration",
+        "type": "object",
+        "properties": {
+            "mainLabel": {
+                "type": "string",
+                "title": "ThankYou Button Label"
+            },
+            "url": {
+                "type": "string",
+                "title": "ThankYou Button Url"
+            },
+            "color": {
+                "type": "string",
+                "title": "ThankYou Button Text Color"
+            },
+            "bgColorHover": {
+                "type": "string",
+                "title": "ThankYou Button Background Hover Color"
+            },
+            "borderColor": {
+                "type": "string",
+                "title": "ThankYou Button Border Color"
+            },
+            "borderColorHover": {
+                "type": "string",
+                "title": "ThankYou Button Border Hover Color"
+            }
+        }
+    }
+}

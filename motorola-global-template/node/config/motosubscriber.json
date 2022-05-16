@@ -1,0 +1,14 @@
+{
+    "sandbox": {
+        "clientId": "9vvafzdq1xkxwbbepfcj6xdz",
+        "clientSecret": "9mo04SFfHkUfFatSJ0ncI6Ji",
+        "instanceId": "mct3wtx8rtr3zf5swqr60mkz0sw0",
+        "dataTableKey": "BEDBC857-4E18-42AC-A195-F9724B79CCBE"
+    },
+    "production": {
+        "clientId": "dspza90bxbgm3bwib665awrd",
+        "clientSecret": "D90bIqmOLn4XSwP9QZJVKlgN",
+        "instanceId": "mct3wtx8rtr3zf5swqr60mkz0sw0",
+        "dataTableKey": "C6DB6C1C-1764-42AB-8470-E5FF2B4A4C5F"
+    }
+}
